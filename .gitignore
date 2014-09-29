@@ -2,6 +2,7 @@ ENV/
 pelican-themes/
 pelican-plugins/
 cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
