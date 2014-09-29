@@ -18,6 +18,15 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
+THEME = "pelican-themes/voidy-bootstrap"
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['assets']
+
+TYPOGRIFY = True
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
+
+
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
