@@ -1,5 +1,6 @@
 ENV/
-
+pelican-themes/
+pelican-plugins/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
