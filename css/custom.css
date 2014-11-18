@@ -1,13 +1,13 @@
-@import url("http://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700");
 
 /*
-GUNMETAL: #2C3539
+GUNMETAL: #2C3539;
 PUMPKIN: #F87217;
 CANTALOUPE: #FFA62F;
 SAFFRON: #FBB917;
+MILK: #fefcff;
+VAMPIRE GRAY: #565051;
 */
-
-
 
 * {
   -webkit-box-sizing: border-box;
@@ -29,11 +29,11 @@ html {
 }
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #2C3539; /*#3e3f3a;*/
-  background-color: #ffffff;
+  background-color: #fefcff;
 }
 input,
 button,
@@ -43,14 +43,15 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+
 a {
-  color: #93c54b;
+  color: #2C3539;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #FFA62F;
-  text-decoration: underline;
+  color: #565051;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -58,6 +59,68 @@ a:focus {
   outline-offset: -2px;
 }
 
-a.navbar-brand {
+h4 {
+  color: #F87217;
+}
+a:hover > h4 { text-decoration: underline;}
+
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a.navbar-brand, a.navbar-nav {
   color: #2C3539;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  color: #565051;
+  background-color: #fefcff;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding-top: 1px;
+}
+
+.bannertext {
+  /* display: none; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.top-subtitle {
+  margin-top: 60px;
+  font-family: "Roboto Slab",helvetica;
+  font-weight: 700;
+  font-size: 140%;
+  text-transform: uppercase;
+  opacity: .6;
+  color: #2C3539;
+  line-height: 175%;
+  letter-spacing: 3px;
+}
+
+.bannertext h1 {
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 40px;
+  font-family: "Roboto Slab",helvetica;
+  text-transform: uppercase;
+  opacity: .6;
+  color: #2C3539;
+  font-size: 400%;
+}
+
+.banner {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 1px 5px rgba(0,0,0,.2);
+  background-color: #2C3539;
 }
