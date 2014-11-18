@@ -1,0 +1,63 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,500");
+
+/*
+GUNMETAL: #2C3539
+PUMPKIN: #F87217;
+CANTALOUPE: #FFA62F;
+SAFFRON: #FBB917;
+*/
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 10px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #2C3539; /*#3e3f3a;*/
+  background-color: #ffffff;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+a {
+  color: #93c54b;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #FFA62F;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+a.navbar-brand {
+  color: #2C3539;
+}
