@@ -73,6 +73,10 @@ a.navbar-brand, a.navbar-nav {
   color: #2C3539;
 }
 
+p > small > em > a {
+  text-decoration: underline;
+}
+
 .nav > li > a:hover, .nav > li > a:focus {
   color: #565051;
   background-color: #fefcff;
@@ -126,4 +130,32 @@ a.navbar-brand, a.navbar-nav {
   border-bottom: 1px solid #ccc;
   box-shadow: 0px 1px 5px rgba(0,0,0,.2);
   background-color: #2C3539;
+}
+
+svg.icon {
+  stroke: #2C3539; /*#565051;*/
+}
+
+svg.icon1 {
+  fill: #FBB917;
+}
+svg.icon2 {
+  fill: #FBB917;
+}
+svg.icon3 {
+  fill: #FBB917;
+}
+svg.icon4 {
+  fill: #FBB917;
+}
+
+.thumb {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+svg.icon > text {
+  font-size: 148px;
+  fill: #2C3539;
+  opacity: .8;
 }

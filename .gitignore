@@ -1,3 +1,9 @@
+#images
+img/
+
+
+
+
 ENV/
 pelican-themes/
 pelican-plugins/

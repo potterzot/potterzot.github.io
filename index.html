@@ -24,6 +24,18 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+      var colors = ["#FBB917"];
+
+      window.getIcon = function(letter) {
+        var color = colors[Math.floor(Math.random() * colors.length)];
+        color = "#000000";
+        var html = "<svg class='icon'><rect x='10' y='10' height='135' width='190' style='fill: "+ color +";'/><text x='10' y='10' size='100' value='"+letter+"' /></svg>";
+        console.log(html)
+        return html;
+      }.call(this)
+    </script>
   </head>
 
   <body>
@@ -57,9 +69,6 @@
 	      	<h3 class="text-center top-subtitle">Needle, meet haystack</h3>
   	      <h1 class="text-center">Project Blueprints</h1>
   	    </div>
-  	    <!-- Google chart
-  	    <script type="text/javascript" src="//www.google.com/trends/embed.js?hl=en-US&tz&q=signal,+noise&cmpt=q&content=1&cid=TIMESERIES_GRAPH_AVERAGES_CHART&export=5&w=1200&h=400"></script> 
-  	    -->
         <img class="banner" src="img/banner.jpg">
       </div>
     </div>
@@ -67,7 +76,7 @@
     <div class="container">
       <!-- Example row of columns -->
       				<!-- Example of an entry
-      				<a href="page/"><img src=""></a>
+      				<a href="page/"><img class="thumb" src=""></a>
       				<h6></h6>
       				<a href=""><h4></h4></a>
       				<p><small><em></em></small></p>
@@ -76,54 +85,85 @@
       	<div class="col-sm-10 col-sm-offset-1">
       		<div class="row">
       			<div class="col-sm-3 col-xs-3">
-      				<a href="page/"><img src=""></a>
-      				<h6>Machine Learning</h6>
-	      			<a href=""><h4>Digit Recognizer</h4></a>
-	      			<p><small><em>Digit recognition using KNN. Kaggle submission</em></small></p>
+      			  <a href="http://csanr.cahnrs.wsu.edu/m2m/tools/dri/dri-conventional-vs-organic.html"><img class="thumb" src="img/dri.png"></a>
+              <h6>Data / Web</h6>
+              <a href="http://csanr.cahnrs.wsu.edu/m2m/tools/dri/dri-conventional-vs-organic.html"><h4>Dietary Risk Index</h4></a>
+              <p><small><em>Interactive lookup tables and figures for the Measure to Manage project at WSU.</em></small></p>	
+      			</div>
+            <div class="col-sm-3 col-xs-3">
+              <a href="https://github.com/potterzot/jstats">
+                <svg class='icon icon1'>
+                  <rect x='10' y='10' height='135' width='190'/>
+                  <text x='60' y='135'>J</text>
+                </svg>
+              </a>
+              <h6>Statistics</h6>
+              <a href="https://github.com/potterzot/jstats"><h4>Jstats</h4></a>
+              <p><small><em>Statistical methods written in Julia. Instrumental variables regression with Bekker adjustments to standard errors.</em></small></p>
+            </div>
+      			<div class="col-sm-3 col-xs-3">
+      				<a href="https://github.com/potterzot/mostlyharmlesspython"><img class="thumb" src="img/mhp.png"></a>
+              <h6>Statistics / Economics</h6>
+              <a href="https://github.com/potterzot/mostlyharmlesspython"><h4>Mostly Harmless Python</h4></a>
+              <p><small><em>Reproduction of results from Angrist and Pischke's <a href="http://www.mostlyharmlesseconometrics.com/"><u>Mostly Harmless Econometrics</u></a>.</em></small></p>
       			</div>
       			<div class="col-sm-3 col-xs-3">
-      				<a href="page/"><img src=""></a>
-      				<h6>Machine Learning</h6>
-      				<a href=""><h4>Titanic Prediction</h4></a>
-      				<p><small><em>Who survives? Kaggle submission.</em></small></p>
-      			</div>
-      			<div class="col-sm-3 col-xs-3">
-      				<a href="page/"><img src=""></a>
-      				<h6>Software</h6>
-      				<a href="https://github.com/potterzot/bittrader"><h4>Bittrader</h4></a>
-      				<p><small><em>Older Bitcoin trader using the API from various exchanges. Super simple auto-trader.</em></small></p>
-      			</div>
-      			<div class="col-sm-3 col-xs-3">
-      				<a href="page/"><img src=""></a>
+      				<a href="https://github.com/potterzot/fcc_netneutrality_comments"><img class="thumb" src="img/fcc_nn.png"></a>
       				<h6>Data</h6>
       				<a href="https://github.com/potterzot/fcc_netneutrality_comments"><h4>FCC Net Neutrality Comments</h4></a>
-      				<p><small><em>Fetch and process into an sql database for easy analysis.</em></small></p>
+      				<p><small><em>Python script to fetch and process into an sql database for easy analysis. Photo by <a href="http://www.flickr.com/photos/believekevin/">believekevin</a>, CC 2.0.</em></small></p>
       			</div>
       		</div>
           <div class="row">
             <div class="col-sm-3 col-xs-3">
-              <a href="page/"><img src=""></a>
-              <h6>Machine Learning</h6>
-              <a href=""><h4>Digit Recognizer</h4></a>
-              <p><small><em>Digit recognition using KNN. Kaggle submission</em></small></p>
+              <a href="https://github.com/potterzot/subject_file_x"><img class="thumb" src="img/subx.png"></a>
+              <h6>Computer Art / Fiction</h6>
+              <a href="https://github.com/potterzot/subject_file_x"><h4>Subject File X</h4></a>
+              <p><small><em>Randomly generated ebook covers and main character traits to fuel a collection of short stories. Written in python.</em></small></p>
             </div>
             <div class="col-sm-3 col-xs-3">
-              <a href="page/"><img src=""></a>
-              <h6>Machine Learning</h6>
-              <a href=""><h4>Titanic Prediction</h4></a>
-              <p><small><em>Who survives? Kaggle submission.</em></small></p>
+              <a href="https://github.com/potterzot/kaggle-comps/tree/master/titanic"><img class="thumb" src="img/titanic.png"></a>
+              <h6>Machine Learning (Kaggle)</h6>
+              <a href="https://github.com/potterzot/kaggle-comps/tree/master/titanic"><h4>Titanic Prediction</h4></a>
+              <p><small><em>Predicting who survives the Titanic. Photo by Willy Stower, 1912.</em></small></p>
             </div>
             <div class="col-sm-3 col-xs-3">
-              <a href="page/"><img src=""></a>
+              <a href="http://potterzot.com/reason/pesticideuse/"><img class="thumb" src="img/pest_use_map.png"></a>
+              <h6>Visualization</h6>
+              <a href="http://potterzot.com/reason/pesticideuse/"><h4>Pesticide Use Map</h4></a>
+              <p><small><em>Demo of a map of total pesticide use through time.</em></small></p>
+            </div>
+            <div class="col-sm-3 col-xs-3">
+              <a href="https://github.com/potterzot/kaggle-comps/tree/master/digit_recognizer"><img class="thumb" src="img/digits.png"></a>
+              <h6>Machine Learning (Kaggle)</h6>
+              <a href="https://github.com/potterzot/kaggle-comps/tree/master/digit_recognizer"><h4>Digit Recognizer</h4></a>
+              <p><small><em>Digit recognition using KNN.</em></small></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 col-xs-3">
+              <a href="http://csanr.cahnrs.wsu.edu/m2m/tools/use/"><img class="thumb" src="img/use.png"></a>
+              <h6>Data / Web</h6>
+              <a href="http://csanr.cahnrs.wsu.edu/m2m/tools/use/"><h4>Pesticide Use</h4></a>
+              <p><small><em>Lookup tables for pesticide use data processed at WSU's Measure to Manage project.</em></small></p>
+            </div>
+            <div class="col-sm-3 col-xs-3">
+              <a href="https://github.com/potterzot/bittrader"><img class="thumb" src="img/bitcoin.png"></a>
               <h6>Software</h6>
               <a href="https://github.com/potterzot/bittrader"><h4>Bittrader</h4></a>
-              <p><small><em>Older Bitcoin trader using the API from various exchanges. Super simple auto-trader.</em></small></p>
+              <p><small><em>Python Bitcoin trader using the API from various exchanges. Super simple auto-trader.</em></small></p>
             </div>
             <div class="col-sm-3 col-xs-3">
-              <a href="page/"><img src=""></a>
-              <h6>Data</h6>
-              <a href="https://github.com/potterzot/fcc_netneutrality_comments"><h4>FCC Net Neutrality Comments</h4></a>
-              <p><small><em>Fetch and process into an sql database for easy analysis.</em></small></p>
+              <a href="http://www.nber.org/mtopublic/"><img class="thumb" src="img/mto.png"></a>
+              <h6>Economics</h6>
+              <a href="http://www.nber.org/mtopublic/"><h4>Moving to Opportunity</h4></a>
+              <p><small><em>Do neighborhoods affect time and crime, health and wealth?</em></small></p>
+            </div>
+            <div class="col-sm-3 col-xs-3">
+              <a href="http://potterzot.com/reason/writtenwork/"><img class="thumb" src="img/writtenwork.png"></a>
+              <h6>Research</h6>
+              <a href="http://potterzot.com/reason/writtenwork/"><h4>Written Work</h4></a>
+              <p><small><em>Journal articles, reports, and other academic and professional written work.</em></small></p>
             </div>
           </div>
       	</div>
