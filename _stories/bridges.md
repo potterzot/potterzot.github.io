@@ -45,7 +45,7 @@ The sun was hot on his back and still the water rushed by.
 
 Later there were sirens and fire trucks. The bridge blocked off by tape. There was the sound of a mother, and the yellow jackets of the search crew.
 
-“Get some rest.” Someone said.
+“Get some rest." Someone said.
 
 The air in his car was hot and pressed on him. He rolled the window down and drove. When he got home his front door groaned. He turned on the A/C and lay down on his bed.
 
@@ -53,6 +53,6 @@ The next morning the mailman delivered the mail to an empty house, as he always 
 
 He dailed 911 and waited while the police came. They went inside and saw that the bed was made. Clothes were in the closet. An officer went through the mail. 
 
-“Hey,” he said, “isn't Hendricks the name of that guy that saw that was at the bridge yesterday?”
+"Hey," he said, "isn't Hendricks the name of that guy that saw that was at the bridge yesterday?"
 
 After that there were more yellow jackets at the river and more police tape. But they didn't find Hendricks there. Hendricks was sitting on an airplane, his hand wrapped carefully around a gin and tonic in a plastic cup. He looked out the window at the clouds and tried not to think of bridges and hollow things and six-year olds with bruises.
