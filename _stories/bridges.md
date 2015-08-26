@@ -1,8 +1,9 @@
 ---
 layout: story
-title: Bridges
-date: 2014-09-05 08:00
+title: "Bridges"
+date: 2014-09-05
 ---
+
 Hendricks flew across the old bridge, his legs pumping. They felt strong against the gradual rise of the pavement, good in the heat of summer. Sweat rolled down his calves and dried. It sprang out and dried in the folds of his eyes and the edges of his ears.
 
 He caught and passed the tour train, the people sitting like marrionettes in their seats, sweat sticking to the plastic seats. They sat and watched the world move past them. He ran and moved past the world.
