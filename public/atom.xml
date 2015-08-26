@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicholas Potter | All Posts</title>
+    <description>Plays with data. Dabbles in fiction. Camps in snow.
+</description>
+    <link>http://potterzot.com/</link>
+    <atom:link href="http://potterzot.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Aug 2015 11:46:41 -0700</pubDate>
+    <lastBuildDate>Wed, 26 Aug 2015 11:46:41 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Building a Style Guide for Non-Designers</title>
+        <description>&lt;p&gt;
+There is something about style guides that feel integrated, tidy, and just plain &lt;em&gt;clean&lt;/em&gt; to me. Maybe this is because I imagine that putting together graphics is just a whole lot easier when all of the font family, font size, line weights, and colors have been already decided.
+&lt;/p&gt;
+&lt;p&gt;
+And a style guide doesn&#39;t just help with graphics, it also makes document creation of all sorts easier, and everything that you output shares a consistent look and feel. There&#39;s one word that captures this, and that word is &quot;polished.&quot; 
+&lt;/p&gt;
+&lt;p&gt;
+Anyway, I&#39;ve been wanting to make my own style guide for a while, but my strength is with statistics and programming, not design. But by following some guides and themes, I&#39;ve managed to come up with a style guide that I quite like, and from what I can tell there are a few important design principals to follow (though again, not my expertise):
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Header text should be a serif font (or opposite of the text)&lt;/li&gt;
+  &lt;li&gt;Basic text should be a sans-serif font&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;potterzot Style Guide&lt;/h3&gt;
+
+&lt;table style=&quot;background:#FFF;border:1px solid #675757;&quot;&gt;
+&lt;head&gt;&lt;h4&gt;&lt;strong&gt;Text&lt;/strong&gt; Styles&lt;/h4&gt;&lt;/head&gt;
+&lt;tr&gt;
+  &lt;td&gt;&lt;h5&gt;Header Title with &lt;strong&gt;Emphasis&lt;/strong&gt;&lt;/h5&gt;&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Bitter | normal | 20px | Left Aligned | #141111 (Text main)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:12px;color:#675757;&quot;&gt;&lt;em&gt;Header Title explanatory text&lt;/em&gt;&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Biryani | italic | 12px | Left Aligned | #675757 (Text light)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:12px;font-family:Bitter;text-align:center;font-weight:bold;&quot;&gt; X and Y axis labels&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Bitter | bold | 12px | Centered | #141111 (Text main)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:12px;font-family:Bitter;text-align:center;&quot;&gt; X and Y axis titles&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Bitter | normal | 12px | Centered | #141111 (Text main)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:10px;font-family:Bitter;text-align:left;&quot;&gt; Legend Text&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Bitter | normal | 10px | Left | #141111 (Text main)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:10px;font-family:Biryani;text-align:left;&quot;&gt; Callout text&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Biryani | normal | 10px | Left | #141111 (Text main)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:10px;font-family:Bitter;text-align:left;&quot;&gt; Point label&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Bitter | normal | 10px | Centered | #141111 (Text main)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td style=&quot;font-size:8px;font-family:Biryani;text-align:left;&quot;&gt; &lt;strong&gt;Source:&lt;/strong&gt; www.potterzot.com&lt;/td&gt;
+  &lt;td style=&quot;color:#675757;&quot;&gt;Biryani | normal | 8px | left | #675757 (Text light)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amycesal.com/data-visualization-style-guidelines&quot;&gt;Amy Cesal&#39;s data visualization style guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.neighborhoodindicators.org/sites/default/files/publications/pitondatastyleguide_070912.pdf&quot;&gt;Piton Foundation&#39;s style guid (pdf link)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Tue, 25 Aug 2015 16:33:43 -0700</pubDate>
+        <link>http://potterzot.com/blog/style-guide/</link>
+        <guid isPermaLink="true">http://potterzot.com/blog/style-guide/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;
+&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
+  puts &amp;quot;Hi, #{name}&amp;quot;
+end
+print_hi(&amp;#39;Tom&amp;#39;)
+#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Aug 2015 07:46:55 -0700</pubDate>
+        <link>http://potterzot.com/blog/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://potterzot.com/blog/welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

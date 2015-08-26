@@ -1,0 +1,13 @@
+{% assign fiction = (site.fiction) %}
+{% for fic in fiction %}
+    {% if fic.thumbnail != null %}
+      <div class="thumbnail" data-mh="fics">
+      <a href="{{ fic.link }}">
+        <img src="{{ fic.thumbnail }}" alt="{{ fic.title}} thumbnail">
+      </a>
+      </div>
+    {% endif %}
+      <p data-mh="fics"><a href="{{ fic.link }}">{{ fic.title }}.</a> {{ fic.description }}</p>
+{% endfor %}
+
+<p>See the archives of <a href="/stories/">short stories</a> and <a href="/poetry/">poetry</a> for everything available here.</p>

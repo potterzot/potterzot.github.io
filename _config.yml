@@ -1,0 +1,59 @@
+# Site settings
+url: http://potterzot.com
+title: Nicholas Potter
+email: potterzot@gmail.com
+author: Nicholas Potter
+description: > # this means to ignore newlines until "baseurl:"
+  Plays with data. Dabbles in fiction. Camps in snow.
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: potterzot
+github_username:  potterzot
+
+# Build settings
+markdown: kramdown
+
+# RSS / Email 
+subscribe_rss: http://potterzot.com/atom.xml
+email: potterzot@gmail.com
+
+root: ./
+permalink: /blog/:title/
+source: ./
+destination: public
+plugins: _plugins
+gems: 
+  - jekyll_figure
+  - jekyll-pandoc
+
+excerpt_separator: <!--more-->
+markdown: pandoc
+pandoc:
+  extensions:
+    - smart
+figures:
+  dir: /figures
+  enumerate: true
+  analytics: true
+lsi: false
+highlighter: false
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:path/
+  poems:
+    output: true
+    permalink: /poetry/:path/
+  projects: 
+    output: false
+  software: 
+    output: false
+  fiction:
+    output: false
+
+# Google Analytics
+google_analytics_tracking_id: UA-2451740-1
+
+
+
+

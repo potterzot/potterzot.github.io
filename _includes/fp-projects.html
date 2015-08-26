@@ -1,0 +1,26 @@
+<div class="row">
+  {% assign projects = (site.projects | sort: 'order') %}
+  {% for project in projects %}
+    <div class="col-sm-4 col-md-4">
+      <div class="thumbnail" data-mh="projects">
+        <a href="{{ project.link }}">
+          <img src="{{ project.thumbnail }}" alt="{{ project.title}} thumbnail">
+        </a>
+        <div class="caption">
+          <a href="{{ project.link }}">
+            <strong>
+              {{ project.title }}
+            </strong>
+          </a>
+          <p>
+            <small>
+              {{ project.content }}
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
+<p>For more projects here is an archive of <a href="/projects/">all projects on this site</a>.</p>

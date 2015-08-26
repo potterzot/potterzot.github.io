@@ -1,0 +1,15 @@
+---
+layout: page
+title: Poetry
+navigation: true
+---
+
+
+<div class="blog-archives">
+  {% for poem in site.poetry %}
+  <p>
+    <time>{{ poem.date | date: "%b %-d, %Y" }}:</time>
+    <a href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a>
+  </p>
+  {% endfor %}
+</div>

@@ -1,0 +1,52 @@
+<h1 id="site-title"><a href="/">{{ site.title }}</a></h1>
+
+<p>
+  <small>
+    <a href="mailto:potterzot@gmail.com">
+      <i class="fa fa-fw fa-envelope-o"></i>
+      potterzot@gmail.com
+    </a>
+  </small>
+</p>
+
+<ul class="list-inline">
+  <li> 
+    <a href="https://github.com/potterzot/">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/potterzot">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="{{site.subscribe_rss}}">
+      <i class="fa fa-lg fa-rss"></i>
+    </a>
+  </li>
+</ul>
+
+<p class="text">{{ site.description }}</p>
+
+<ul class="nav nav-list sidebar-nav">
+  <li>
+    <a href="/files/potter_nicholas-cv.pdf" onclick="ga('send', 'event', { 'eventCategory': 'PDF', 'eventAction': 'Download', 'eventLabel': 'potter_nicholas-cv.pdf'});">
+      CV <i class="fa fa-fw fa-lg fa-file-pdf-o hidden-sm hidden-xs"></i>
+    </a>
+  </li>
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/about/">About</a></li>
+
+  {% if page.url == "/index.html" %}
+    <li><a data-scroll href="#projects">Projects</a></li>
+    <li><a data-scroll href="#software">Software</a></li>
+    <li><a data-scroll href="/#fiction">Fiction</a></li>
+  {% else %}
+    <li><a href="/#projects">Projects</a></li>
+    <li><a href="/#software">Software</a></li>
+    <li><a href="/#fiction">Fiction</a></li>
+  {% endif %}
+</ul>
+
+<hr class="hidden-md hidden-lg">
