@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/potterzot
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://potterzot.com
+  * I am potterzot (https://keybase.io/potterzot) on keybase.
+  * I have a public key with fingerprint 9C73 3AAA 6D99 86F1 F8F4  601D 298F 8713 1BE6 5941
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "9c733aaa6d9986f1f8f4601d298f87131be65941",
+            "host": "keybase.io",
+            "key_id": "298F87131BE65941",
+            "uid": "8e7020c05890c697a4a26dda43eb7e00",
+            "username": "potterzot"
+        },
+        "merkle_root": {
+            "ctime": 1440685924,
+            "hash": "11469ce2cb18ea70dc3e730bea541158d7042c3e50c96d2c75ad8066b8538096659b73f7b27cfb0bad7e42a72222920ce902253bf19f707487de2f460b7f1c7c",
+            "seqno": 283028
+        },
+        "service": {
+            "hostname": "potterzot.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1440686449,
+    "expire_in": 157680000,
+    "prev": "48704e6c0038d38044b57450588ff0cac073f860c75bb1e24df16bf43a744fec",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFdkjtoFUEUhtd3lAgJt7CwidsF4mVmdnYeFxQjPkobRW1ynceZZJN7d292NzEx
+BLGKYKEICnZiaSGKptdGEBsrK9FOjdpYG4gzlwSSTLU7851//v+ceXB0XzQwPHp/
+pXH8+/XxPR/XdHTl24nZpVgXdjFuLcWmk0Feh69cdSFuxTOwqFUFzawYyQsLzelq
+ZJMZi+ehrLIi9xRq8iaJl8cCHopdlk9C2SuzoBVLw5NEKcWslII57ISjDGFLpHCC
+4wRrYKmk2EtOFVW949a4r9nOrN/1/IU+f/b8Fj/XPxDAEUEGpUIiwyRXVBFmraIJ
+aA4IBbCCcjNSr6hrKG8VdTDchXKmA+2yKPqpTZ0FBlOKmEglod6SqqZ8FcaUSQPE
+aCxAcWRNAjxBGlRKMU6F5YgSv5ciI5klhqfKCsSYFmkikGTeseaJ45pw4zTSynKg
+RHHil/TmQSJC0kQ7LB1HnApugYQ+ae6w4cZnqGA2L+IWEQkiYjn8l/OZgeA79G13
+vKYpur6qVxZ1YYqOP5qq614rpK4XewG9CS91e1OlrbPc+rFtnyv26I6OMErlWAwL
+vayEdhaIlDOB/Ar3wLzX9MYRBWYQSoT1ySnVKaepn41wDhllkO+CYMg3SGsMhFqH
+mXY0UZxSB9ty4sQbVZNes8omc1XPlRAv353YHw0PRAcP7A0PNzpyeGjrNa+/iTYu
+4h+fT0fTq5d+jv67dqbx9M/tq4077wZp1Lj89vGptUfRxsSX5+cGf59c/yBWXg99
+PfS+e+OXe/j33qcnLxaejR97tfof
+=S+ra
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/potterzot
+
+==================================================================
+
