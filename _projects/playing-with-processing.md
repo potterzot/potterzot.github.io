@@ -1,6 +1,6 @@
 ---
 title: Playing with Processing
-link: /projects/playing-with-processing/
-thumbnail: /projects/playing-with-processing/
+link: http://bl.ocks.org/potterzot/5ce8168b7dd9086acb28
+thumbnail: /assets/thumbnails/p5js-example.png
 order: 50
 ---
