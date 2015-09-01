@@ -16,9 +16,9 @@ markdown: kramdown
 subscribe_rss: http://potterzot.com/atom.xml
 email: potterzot@gmail.com
 
-root: ./
+root: /
 permalink: /blog/:title/
-source: ./
+source: /
 destination: public
 plugins: _plugins
 gems: 
