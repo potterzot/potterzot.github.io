@@ -1,1 +1,0 @@
-THe only thing about me is the way that I walk.

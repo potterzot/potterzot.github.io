@@ -26,7 +26,7 @@ gems:
   - jekyll-pandoc
 
 excerpt_separator: <!--more-->
-markdown: pandoc
+#markdown: pandoc
 pandoc:
   extensions:
     - smart
