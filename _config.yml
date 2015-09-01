@@ -18,15 +18,15 @@ email: potterzot@gmail.com
 
 root: /
 permalink: /blog/:title/
-source: /
+source: source
 destination: public
-plugins: _plugins
+plugins: plugins
 gems: 
   - jekyll_figure
   - jekyll-pandoc
 
 excerpt_separator: <!--more-->
-#markdown: pandoc
+markdown: pandoc
 pandoc:
   extensions:
     - smart
