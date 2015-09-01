@@ -35,7 +35,7 @@ figures:
   enumerate: true
   analytics: true
 lsi: false
-highlighter: false
+highlighter: pygments
 
 collections:
   stories:
