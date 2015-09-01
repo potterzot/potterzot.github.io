@@ -3,7 +3,7 @@ layout: mathpage
 title: Written Work
 ---
 
-###Published Articles
+###Journal Articles
 * Sanbonmatsu, Lisa, Nicholas A. Potter, Emma Adam, Greg J. Duncan, Lawrence F. Katz, Ronald C. Kessler, Jens Ludwig et al. "[The long-term effects of Moving to Opportunity on adult health and economic self-sufficiency.](http://home.uchicago.edu/~ludwigj/papers/Cityscape_July2012_long_term_effects_adult.pdf)" Cityscape (2012): 109-136.
 
 ###Reports
