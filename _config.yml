@@ -18,7 +18,7 @@ email: potterzot@gmail.com
 
 root: /
 permalink: /blog/:title/
-source: source
+source: ./
 destination: public
 plugins: plugins
 gems: 
