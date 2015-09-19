@@ -180,4 +180,4 @@ So by evaluating `temp_var` as a name and quoting it, the call in `dyanimicCalcG
     }
 {% endhighlight %}
 
-I think that's abstracted enough that I could use `summarize` to apply just about any function I want to my grouped data.
+If you're here looking for help, I hope you found it. I know it definitely helped me to write it.
