@@ -180,4 +180,4 @@ So by evaluating `temp_var` as a name and quoting it, the call in `dyanimicCalcG
     }
 {% endhighlight %}
 
-If you're here looking for help, I hope you found it. I know it definitely helped me to write it.
+If you're here looking for help, I hope you found it. I know it definitely helped me to write this.
