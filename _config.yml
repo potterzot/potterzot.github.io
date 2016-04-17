@@ -24,7 +24,7 @@ destination:  ./public
 
 # Plugins
 #whitelist: []
-gems: [jekyll-coffeescript, jekyll-watch, jekyll-assets, jekyll-utf8, jekyll-github]
+gems: [jekyll-coffeescript, jekyll-watch, jekyll-assets, jekyll-utf8]
 
 # # Handling Reading
 #safe:         false
