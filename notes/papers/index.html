@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Books and Articles"
+navigation: true
+---
+
+<div class="blog-archives">
+<ul>
+  {% for note in site.notes %}
+      <li>
+        <a href="{{ note.url | prepend: note.baseurl }}">{{ note.citationkey : note.title }}</a>
+      </li>
+  {% endfor %}
+</ul>
+</div>

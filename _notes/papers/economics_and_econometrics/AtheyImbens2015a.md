@@ -1,0 +1,15 @@
+---
+type: "journal-article"
+authors: "Susan Athey, Guido W. Imbens"
+title: "Machine Learning Methods for Estimating Heterogeneous Causal Effects"
+container: "Arxiv"
+year: "2017"
+issue: ""
+volume: ""
+pages: ""
+subject: "Economics and Econometrics"
+doi: "abs/1504.01132"
+url: "http://arxiv.org/abs/1504.01132"
+citationkey: "AtheyImbens2015a"
+updated: "20160311"
+---

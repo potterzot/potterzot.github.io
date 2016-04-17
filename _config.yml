@@ -5,37 +5,60 @@ email: potterzot@gmail.com
 author: Nicholas Potter
 description: > # this means to ignore newlines until "baseurl:"
   Plays with data. Dabbles in fiction. Camps in snow.
+  
 baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: potterzot
 github_username:  potterzot
-
-# Build settings
-markdown: kramdown
-
-# RSS / Email 
 subscribe_rss: http://potterzot.com/atom.xml
-email: potterzot@gmail.com
 
+# Where things are
 root: /
 permalink: /blog/:title/
-source: ./
-destination: public
-plugins: plugins
-gems: 
-  - jekyll_figure
-  - jekyll-pandoc
+#source:       .
+destination:  ./public
+#plugins_dir:  ./_plugins
+#layouts_dir:  ./_layouts
+#data_dir:     ./_data
+#includes_dir: ./_includes
+#collections:  null
 
+# Plugins
+#whitelist: []
+gems: [jekyll-coffeescript, jekyll-watch, jekyll-assets, jekyll-utf8, jekyll-github]
+
+# # Handling Reading
+#safe:         false
+#include:      [".htaccess"]
+#exclude:      []
+#keep_files:   [".git", ".svn"]
+#encoding:     "utf-8"
+#markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 excerpt_separator: <!--more-->
+
+# Filtering Content
+#show_drafts: null
+#limit_posts: 0
+#future:      false
+#unpublished: false
+
+# Conversion
+# Build settings
+markdown: kramdown
+# highlighter: rouge
+# lsi:         false
+# excerpt_separator: "\n\n"
+# incremental: false
+#
+
+#markdown: redcarpet
+
 #markdown: pandoc
-pandoc:
-  extensions:
-    - smart
 figures:
   dir: /figures
   enumerate: true
   analytics: true
 lsi: false
-highlighter: pygments
+#highlighter: pygments
 
 collections:
   stories:
@@ -44,6 +67,14 @@ collections:
   poems:
     output: true
     permalink: /poetry/:path/
+  notes:
+    output: true
+    permalink: /notes/:path/
+    layout: mathpost
+  research:
+    output: true
+    permalink: /research/:path/
+    layout: mathpage
   projects: 
     output: false
   software: 
@@ -54,6 +85,47 @@ collections:
 # Google Analytics
 google_analytics_tracking_id: UA-2451740-1
 
+
+# # Serving
+# detach:  false
+# port:    4000
+# host:    127.0.0.1
+# baseurl: "" # does not include hostname
+#
+# # Outputting
+# permalink:     date
+# paginate_path: /page:num
+# timezone:      null
+#
+# quiet:    false
+# defaults: []
+#
+# # Markdown Processors
+pandoc:
+  extensions: [smart, normalize, mathjax, csl: _styles/apa.csl, bibliography: bibliography.bib]
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  input: GFM
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
 
 
 

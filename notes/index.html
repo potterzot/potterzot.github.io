@@ -1,0 +1,16 @@
+---
+layout: page
+title: Notes Archive
+navigation: true
+---
+
+<div class="blog-archives">
+<ul>
+  {% for note in site.notes %}
+  <li>
+    <time>{{ note.date | date: "%b %-d, %Y" }}:</time>
+    <a href="{{ note.url | prepend: note.baseurl }}">{{ note.title }}, by {{ note.authors }}</a>
+  </li>
+  {% endfor %}
+  </ul>
+</div>
