@@ -1,13 +1,14 @@
 ---
+layout: mathpost
 type: "book"
-authors: "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani"
+authors: ["Gareth James", "Daniela Witten", "Trevor Hastie", "Robert Tibshirani"]
 title: "An Introduction to Statistical Learning"
 year: "2013"
 issue: ""
 volume: ""
 pages: ""
-subject: "Statistics"
-url: ""
+subjects: ["Statistics"]
+link: ""
 citationkey: "JamesETAL2013"
 updated: "20160303"
 ---

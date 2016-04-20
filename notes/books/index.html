@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Notes on Books - By Subject"
+navigation: true
+---
+
+{% assign coll = site.notes | where: "type", "book" %}
+{% assign subjects = coll | group_by: "subjects" | sort: "name" %}
+
+{% include group-by-array.html collection=coll field='subjects' %}
+
+<div class="blog-archives">
+
+{% for subject in group_names %}
+  {% assign notes = group_items[forloop.index0] %}
+  {% if notes[0] %}
+    <h3>{{ subject }}</h3>
+    <ul>
+      {% for note in notes %}
+        {% assign authors = note.authors | join: ", " %}
+        <li>
+          [<a href="{{ note.url }}">{{ note.citationkey }}</a>] {{ authors }}. <i>{{ note.title }}</i>. {{ note.publisher }}, {{ note.year }}. 
+        </li>
+      {%endfor%}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+<p>Back to <a href="/notes">Notes</a>.</p>

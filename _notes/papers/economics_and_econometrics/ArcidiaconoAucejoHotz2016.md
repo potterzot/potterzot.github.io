@@ -1,15 +1,15 @@
 ---
 type: journal-article
 authors: Peter Arcidiacono, Esteban M. Aucejo, V. Joseph Hotz
-title: University Differences in the Graduation of Minorities in STEM Fields: Evidence from California †
+title: University Differences in the Graduation of Minorities in STEM Fields: Evidence from California 
 container: American Economic Review
 year: 2016
 issue: 3
 volume: 106
 pages: 525-562
-subject: Economics and Econometrics
+subjects: Economics and Econometrics
 doi: 10.1257/aer.20130626
-url: http://dx.doi.org/10.1257/aer.20130626
+link: http://dx.doi.org/10.1257/aer.20130626
 citationkey: ArcidiaconoAucejoHotz2016
 updated: 20160302
 ---

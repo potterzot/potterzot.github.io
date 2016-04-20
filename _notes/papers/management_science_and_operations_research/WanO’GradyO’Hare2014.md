@@ -1,16 +1,16 @@
 ---
 type: "journal-article"
-authors: "Jie Wan, Michael J. O’Grady, Gregory M. P. O’Hare"
+authors: "Jie Wan, Michael J. O'Grady, Gregory M. P. O'Hare"
 title: "Dynamic sensor event segmentation for real-time activity recognition in a smart home context"
-container: "Pers Ubiquit Comput"
+container: "Perspectives on Ubiquitous Computation"
 year: "2014"
 issue: "2"
 volume: "19"
 pages: "287-301"
-subject: "Management Science and Operations Research, Hardware and Architecture, Computer Science Applications"
+subjects: "Management Science and Operations Research, Hardware and Architecture, Computer Science Applications"
 doi: "10.1007/s00779-014-0824-x"
-url: "http://dx.doi.org/10.1007/s00779-014-0824-x"
-citationkey: "WanO’GradyO’Hare2014"
+link: "http://dx.doi.org/10.1007/s00779-014-0824-x"
+citationkey: "WanOGradyOHare2014"
 updated: "20160315"
 ---
 

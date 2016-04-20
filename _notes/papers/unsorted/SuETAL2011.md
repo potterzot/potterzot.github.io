@@ -7,9 +7,9 @@ year: 2011
 issue: 2
 volume: 45
 pages: 
-subject: 
+subjects: 
 doi: 10.18637/jss.v045.i02
-url: http://dx.doi.org/10.18637/jss.v045.i02
+link: http://dx.doi.org/10.18637/jss.v045.i02
 citation_key: SuETAL2011
 updated: 20160302
 ---

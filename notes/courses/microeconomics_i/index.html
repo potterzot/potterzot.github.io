@@ -1,0 +1,17 @@
+---
+layout: page
+title: "Notes for Microeconomics I"
+navigation: true
+---
+
+{% assign coll = site.notes | where: "course", "Microeconomics I" %}
+
+<div class="blog-archives">
+
+<ul>
+{% for note in coll %}
+  <li>
+    <a href="{{ note.url }}">{{ note.title }}</a>.
+  </li>
+{% endfor %}
+</ul>

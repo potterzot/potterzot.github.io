@@ -24,15 +24,15 @@ destination:  ./public
 
 # Plugins
 #whitelist: []
-gems: [jekyll-coffeescript, jekyll-watch, jekyll-assets, jekyll-utf8]
+gems: []
 
 # # Handling Reading
 #safe:         false
-#include:      [".htaccess"]
+include:      [".htaccess"]
 #exclude:      []
-#keep_files:   [".git", ".svn"]
-#encoding:     "utf-8"
-#markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 excerpt_separator: <!--more-->
 
 # Filtering Content
@@ -43,22 +43,22 @@ excerpt_separator: <!--more-->
 
 # Conversion
 # Build settings
-markdown: kramdown
-# highlighter: rouge
-# lsi:         false
+lsi: false
+highlighter: pygment
 # excerpt_separator: "\n\n"
 # incremental: false
+
+# Markdown
+markdown: kramdown
+#markdown: redcarpet
+#markdown: pandoc
 #
 
-#markdown: redcarpet
 
-#markdown: pandoc
 figures:
   dir: /figures
   enumerate: true
   analytics: true
-lsi: false
-#highlighter: pygments
 
 collections:
   stories:

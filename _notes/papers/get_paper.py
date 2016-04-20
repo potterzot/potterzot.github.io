@@ -20,24 +20,25 @@ from metapub import CrossRef as cr
 
 #Depending on operating system
 if sys.platform == "linux" or sys.platform == "linux2":
-  HOME_DIR = "/home/potterzot"
-  REPO_DIR = "reason/napnotes"
+  HOME_DIR = "/www/potterzot.github.io"
 elif sys.platform == "darwin":
   # OS X
   pass
 elif sys.platform == "win32":
   # Windows...
-  HOME_DIR = "C:/Users/Nicholas Potter"
-  REPO_DIR = "work/code/napnotes"
+  HOME_DIR = "C:/Users/Nicholas Potteri/potterzot.github.io"
 
 ###Universal
+REPO_DIR = "_notes"
 MD_DIR = "papers"
 PDF_DIR = "Dropbox/personal-work/bibliography/library"
+
 
 def clean_txt(txt):
   """Takes txt and returns a sanitized utf-8 string."""
   r = txt.encode("utf-8", errors="backslashreplace").decode('utf-8').replace("\\u0144", "")
   return r
+
 
 def doi2json(doi):
   """
@@ -90,11 +91,12 @@ def extract_metadata(res):
   d['pages'] = res['page'] if "page" in res.keys() else ""
   d['subject'] = make_subject(res)
   d['doi'] = res['DOI']
-  d['url'] = res['URL']
+  d['link'] = res['URL']
   d['citationkey'] = make_citation_key(res)
   d['updated'] = date.today().strftime("%Y%m%d")
   
   return d
+
 
 def get_year(res):
   """
@@ -130,8 +132,20 @@ def make_citation_key(res):
 
 def make_subject(res):
   """Takes the DOI metadata and returns a subject name."""
+  subj_dict = {
+    "Agricultural and Biological Sciences (miscellaneous)": "Agriculture and Biological Sciences",
+    "Am. J. Agr. Econ.": "American Journal of Agricultural Economics",
+    "Annu. Rev. Resour. Econ.": "Annual Review of Resource Economics",
+    "J. Appl. Econ.": "Journal of Applied Economics",
+    "J Med Internet Res": "Journal of Medical Internet Research",
+    "Pers Ubiquit Comput": "Perspectives on Ubiquitous Computation",
+    "PLoS Comput Biol": "PLoS Computational Biology",
+    "PLoS Med": "PLoS Medicine",
+    "Unsorted": "Unsorted"}
+
   s = res['subject'] if "subject" in res.keys() else ["Unsorted"]
-  return s
+  
+  return subj_dict[s] if s in subj_dict.keys() else s
 
 
 def main(argv):
@@ -164,9 +178,9 @@ def main(argv):
 
   #Then write
   with open(filename, "w") as f:
-    f.write("---\n")
+    f.write("---\nlayout: mathpost\n")
     for k,v in meta.items():
-      v = ", ".join(v) if type(v) is list else v
+      v = str(v) if type(v) is list else v
       try:
         f.write(k + ': "' + str(v) + '"\n')
       except UnicodeEncodeError as e:
@@ -177,9 +191,27 @@ def main(argv):
 
     f.write("---\n\n####Notes\n")
 
-  #add the reference to the "to_read.md" list
+  #Add the metadata to the bibtex reference
+  bibtex_filename = "/".join([HOME_DIR, REPO_DIR, MD_DIR, "library.bib"])
+  with open(bibtex_filename, "a") as f:
+    f.write("\n")
+    s = ",".join([
+      "@article{" + meta['citationkey'],
+      "author = {" + meta['authors'] + "}",
+      "doi = {" + meta['doi'] + "}",
+      "issn = {" + meta['issn'] + "}",
+      "journal = {" + meta['container'] + "}",
+      "number {" + meta['issue'] + "}",
+      "pages = {" + meta['pages'] + "}",
+      "title = {" + meta['title'] + "}",
+      "url = {" + meta['url'] + "}",
+      "volume = {" + meta['volume'] + "}",
+      "year = {" + meta['year'] + "}"
+    f.write(s)
+
+  #add the reference to the "reading_list.md" file
   with open("/".join([HOME_DIR, REPO_DIR, MD_DIR, "reading_list.md"]), "a") as f:
-    f.write("* **" + meta['citationkey'] + "**: (" + re.sub(r'\([^)]*\)', '', meta['subject'][0]).strip() + ") " + meta['url'] + "\n")
+    f.write("* **" + meta['citationkey'] + "**: (" + re.sub(r'\([^)]*\)', '', meta['subject'][0]).strip() + ") " + meta['link'] + "\n")
 
   print("reference {} added in {}!\n".format(meta['citationkey'], subject_dir))
 

@@ -1,16 +1,34 @@
 ---
 layout: page
-title: Notes Archive
+title: Notes
 navigation: true
 ---
 
+These notes are my attempt to develop and use a note-taking system that:
+<ol>
+  <li>is easy to write in,</li>
+  <li>allows for and renders math text,</li>
+  <li>is text-searchable,</li>
+  <li>has version control,</li>
+  <li>can be edited and viewed from anywhere and any computer,</li>
+  <li>can be viewed in a pleasant format,</li>
+  <li>and can be easily and quickly exported to pdf.</li>
+</ol>
+
+<p>To this end, notes are taken in <a href="https://daringfireball.net/projects/markdown/">markdown</a> format. They are written as part of a git repository and included in my web site, which is built using <a href="https://jekyllrb.com">jekyll</a> to build a static site hosted on github. Git provides version control, github makes notes fully editable from any internet-connected computer. Being built in jekyll, the notes are rendered into HTML, and using <a href="http://www.mathjax.org/">mathjax</a> math formulas are correctly rendered as well. Since the note files themselves are written in markdown, they are easily searchable text files editable by any text editor, and (critically), they are subject to any suite of command line tools like grep, awk, sed, etc...</p>
+
+<p>The notes are categorized by source, and begin in the year before I began my PhD program. At any given time you can also see my <a href="reading_list">list of articles and books to read</a>.</p>
+
+<p>You can view the notes by date as an <a href="archive/">archive</a>.</p>
+
+<h4>Categories</h4>
 <div class="blog-archives">
-<ul>
-  {% for note in site.notes %}
-  <li>
-    <time>{{ note.date | date: "%b %-d, %Y" }}:</time>
-    <a href="{{ note.url | prepend: note.baseurl }}">{{ note.title }}, by {{ note.authors }}</a>
-  </li>
-  {% endfor %}
+  <ul>
+    <li><a href="books">Books</a>
+    <li><a href="papers">Papers</a>
+    <li><a href="talks">Talks and Conference Presentations</a>
+    <li><a href="courses">Courses</a>
   </ul>
 </div>
+
+My bibtex reference file is available <a href="/notes/library.bib">here</a>, and the script that fetches metadata and creates a skeleton markdown file for a paper based on a DOI is <a href="/notes/papers/reading_list">here</a>.

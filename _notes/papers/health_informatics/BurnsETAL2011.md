@@ -2,14 +2,14 @@
 type: journal-article
 authors: Michelle Nicole Burns, Mark Begale, Jennifer Duffecy, Darren Gergle, Chris J Karr, Emily Giangrande, David C Mohr
 title: Harnessing Context Sensing to Develop a Mobile Intervention for Depression
-container: J Med Internet Res
+container: Journal of Medical Internet Research
 year: 2011
 issue: 3
 volume: 13
 pages: e55
-subject: Health Informatics
+subjects: Health Informatics
 doi: 10.2196/jmir.1838
-url: http://dx.doi.org/10.2196/jmir.1838
+link: http://dx.doi.org/10.2196/jmir.1838
 citation_key: BurnsETAL2011
 updated: 20160302
 ---
