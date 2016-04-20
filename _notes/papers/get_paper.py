@@ -206,7 +206,8 @@ def main(argv):
       "title = {" + meta['title'] + "}",
       "url = {" + meta['url'] + "}",
       "volume = {" + meta['volume'] + "}",
-      "year = {" + meta['year'] + "}"
+      "year = {" + meta['year'] + "}\n}"
+      ])
     f.write(s)
 
   #add the reference to the "reading_list.md" file
