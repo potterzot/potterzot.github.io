@@ -16,6 +16,7 @@ import requests
 import json
 from datetime import date
 from collections import OrderedDict
+from itertools import chain #for flattening a list
 from metapub import CrossRef as cr
 
 #Depending on operating system
@@ -82,9 +83,9 @@ def extract_metadata(res):
   d = OrderedDict()
 
   d['type'] = res['type']
-  d['authors'] = ", ".join(make_author_list(res))
+  d['authors'] = make_author_list(res)
   d['title'] = res['title'].strip(" ")
-  d['container'] = res['container-title']
+  d['container'] = make_container(res)
   d['year'] = str(get_year(res))
   d['issue'] = res['issue'] if "issue" in res.keys() else ""
   d['volume'] = res['volume'] if "volume" in res.keys() else ""
@@ -93,7 +94,7 @@ def extract_metadata(res):
   d['doi'] = res['DOI']
   d['link'] = res['URL']
   d['citationkey'] = make_citation_key(res)
-  d['updated'] = date.today().strftime("%Y%m%d")
+  d['fetched'] = date.today().strftime("%Y%m%d")
   
   return d
 
@@ -130,22 +131,31 @@ def make_citation_key(res):
 
   return key.replace(" ", "")
 
-def make_subject(res):
-  """Takes the DOI metadata and returns a subject name."""
-  subj_dict = {
-    "Agricultural and Biological Sciences (miscellaneous)": "Agriculture and Biological Sciences",
+
+def make_container(res):
+  """Given DOI metadata return a journal name."""
+  journal_dict = {
     "Am. J. Agr. Econ.": "American Journal of Agricultural Economics",
     "Annu. Rev. Resour. Econ.": "Annual Review of Resource Economics",
     "J. Appl. Econ.": "Journal of Applied Economics",
     "J Med Internet Res": "Journal of Medical Internet Research",
     "Pers Ubiquit Comput": "Perspectives on Ubiquitous Computation",
     "PLoS Comput Biol": "PLoS Computational Biology",
-    "PLoS Med": "PLoS Medicine",
-    "Unsorted": "Unsorted"}
+    "PLoS Med": "PLoS Medicine"}
+  s = res['container-title'] if "container-title" in res.keys() else ["Unknown"]
+  
+  return journal_dict[s] if s in journal_dict.keys() else s
 
+
+def make_subject(res):
+  """Takes the DOI metadata and returns a list of subjects."""
+  subj_dict = {
+    "Agricultural and Biological Sciences (miscellaneous)": "Agricultural and Biological Sciences",
+    "Unsorted": "Unsorted"}
+  keys = subj_dict.keys()
   s = res['subject'] if "subject" in res.keys() else ["Unsorted"]
   
-  return subj_dict[s] if s in subj_dict.keys() else s
+  return [subj_dict[x] if x in keys else x for x in s]
 
 
 def main(argv):
@@ -166,47 +176,50 @@ def main(argv):
   os.mkdir(md_dir) if os.path.isdir(md_dir) == False else None
 
   #First check that the file doesn't exist, and if it does, increment the citationkey
-  filename = "/".join([md_dir, meta['citationkey'] + ".md"])
-  tmp_citationkey = meta['citationkey']
+  citation_files = list(chain.from_iterable([x[2] for x in os.walk("/".join([HOME_DIR, REPO_DIR]))]))
   letters = list(string.ascii_lowercase)
-  for j in range(0,26):
-    if os.path.isfile(filename) == False:
-      meta['citationkey'] = tmp_citationkey
-      break
-    tmp_citationkey = meta['citationkey'] + letters[j]
-    filename = "/".join([md_dir, tmp_citationkey + ".md"])
+  citation_found = False
+  j = 0
+  while not citation_found:
+    if meta['citationkey'] + letters[j] +  ".md" not in citation_files:
+      meta['citationkey'] = meta['citationkey'] + letters[j]
+      citation_found = True
+    j += 1
+  filename = "/".join([md_dir, meta['citationkey'] + ".md"])
 
   #Then write
   with open(filename, "w") as f:
     f.write("---\nlayout: mathpost\n")
     for k,v in meta.items():
-      v = str(v) if type(v) is list else v
+
       try:
-        f.write(k + ': "' + str(v) + '"\n')
+        if type(v) is list:
+          f.write(k + ': ' + str(v) + '\n')
+        else:
+          f.write(k + ': "' + str(v) + '"\n')
       except UnicodeEncodeError as e:
         print("Unicode Error. Some character(s) may be wrong.")
         print(meta.keys())
         print(repr(k) + ": " + repr(v))
         print(e)
 
-    f.write("---\n\n####Notes\n")
+    f.write("---\n\nn")
 
   #Add the metadata to the bibtex reference
-  bibtex_filename = "/".join([HOME_DIR, REPO_DIR, MD_DIR, "library.bib"])
+  bibtex_filename = "/".join([HOME_DIR, REPO_DIR, "library.bib"])
   with open(bibtex_filename, "a") as f:
-    f.write("\n")
     s = ",".join([
-      "@article{" + meta['citationkey'],
-      "author = {" + meta['authors'] + "}",
-      "doi = {" + meta['doi'] + "}",
-      "issn = {" + meta['issn'] + "}",
-      "journal = {" + meta['container'] + "}",
-      "number {" + meta['issue'] + "}",
-      "pages = {" + meta['pages'] + "}",
-      "title = {" + meta['title'] + "}",
-      "url = {" + meta['url'] + "}",
-      "volume = {" + meta['volume'] + "}",
-      "year = {" + meta['year'] + "}\n}"
+      "\n@article{" + meta['citationkey'],
+      "\nauthor = {" + " and ".join(", ".join([x['family'], x['given']]) for x in res['author']) + "}",
+      "\ndoi = {" + meta['doi'] + "}",
+      #"\nissn = {" + meta['issn'] + "}",
+      "\njournal = {" + meta['container'] + "}",
+      "\nnumber {" + meta['issue'] + "}",
+      "\npages = {" + meta['pages'] + "}",
+      "\ntitle = {" + meta['title'] + "}",
+      "\nurl = {" + meta['link'] + "}",
+      "\nvolume = {" + meta['volume'] + "}",
+      "\nyear = {" + meta['year'] + "}\n}\n"
       ])
     f.write(s)
 
@@ -214,7 +227,7 @@ def main(argv):
   with open("/".join([HOME_DIR, REPO_DIR, MD_DIR, "reading_list.md"]), "a") as f:
     f.write("* **" + meta['citationkey'] + "**: (" + re.sub(r'\([^)]*\)', '', meta['subject'][0]).strip() + ") " + meta['link'] + "\n")
 
-  print("reference {} added in {}!\n".format(meta['citationkey'], subject_dir))
+  print("reference {} added in {}!\n".format(meta['citationkey'], md_dir))
 
 if __name__ == '__main__':
   main(sys.argv[1:])

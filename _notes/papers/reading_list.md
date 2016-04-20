@@ -1,0 +1,14 @@
+* **CrespiETAL2015b**: (Agriculture and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015c**: (Agriculture and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015a**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015b**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015a**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015a**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
+* **CrespiETAL2015a**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav049
