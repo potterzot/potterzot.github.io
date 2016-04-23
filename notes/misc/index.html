@@ -1,0 +1,19 @@
+---
+layout: page
+title: "Notes on Miscellaneous Topics"
+navigation: true
+---
+
+{% assign coll = site.notes | where: "type", "misc" %}
+
+<div class="blog-archives">
+
+<ul>
+{% for note in coll %}
+  <li>
+    <a href="{{ note.url }}/">{{ note.title }}</a>.
+  </li>
+{% endfor %}
+</ul>
+
+<p>Back to <a href="/notes">Notes</a>.</p>
