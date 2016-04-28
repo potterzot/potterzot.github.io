@@ -2,7 +2,7 @@
 layout: mathpost
 type: "journal-article"
 authors: ['Andrew Gelman']
-title: "Teaching Bayes to Graduate Students in Political Science, Sociology, Public Health, Education, Economics, …"
+title: "Teaching Bayes to Graduate Students in Political Science, Sociology, Public Health, Education, Economics."
 container: "The American Statistician"
 year: "2008"
 issue: "3"
