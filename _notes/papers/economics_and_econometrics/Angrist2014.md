@@ -1,4 +1,5 @@
 ---
+layout: mathpost
 type: "journal-article"
 authors: "Joshua D. Angrist"
 title: "The perils of peer effects"

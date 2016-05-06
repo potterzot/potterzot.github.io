@@ -9,9 +9,10 @@ issue: ""
 volume: ""
 pages: ""
 subject: ['Economics and Econometrics']
+category: economics_and_econometrics
 doi: ""
 link: "http://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf"
-citationkey: "GreensteinPeitzValletti2016"
+citationkey: "BevisBarrett2016"
 fetched: "20160506"
 ---
 
