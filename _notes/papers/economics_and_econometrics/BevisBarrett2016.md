@@ -8,7 +8,7 @@ year: "2016"
 issue: ""
 volume: ""
 pages: ""
-subject: ['Economics and Econometrics']
+subjects: ['Economics and Econometrics']
 category: economics_and_econometrics
 doi: ""
 link: "http://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf"
