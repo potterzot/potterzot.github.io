@@ -17,9 +17,8 @@ navigation: true
     <h3>{{ subject }}</h3>
     <ul>
       {% for note in notes %}
-        {% assign authors = note.authors | join: ", " %}
         <li>
-          [<a href="{{ note.url }}">{{ note.citationkey }}</a>] {{ authors }}. "{{ note.title }}." <i>{{ note.container }}</i> {{ note.volume }}, no. {{ note.issue }} ({{ note.year }}): {{ note.pages }}. [<a href="{{ note.link }}">doi link</a>].
+          {{ note.citation-authors }} "{{ note.source-title }}". <i>{{ note.container }}</i>{% if note.volume != "" %} {{ note.volume }}{% endif %}{% if note.issue != "" %}, no. {{ note.issue }}{% endif %}{% if note.year != "" %} ({{ note.year }}){% endif %}{% if note.pages != "" %}: {{ note.pages }}{% endif %}. [<a href="{{ note.url }}">Notes</a>, <a href="{{ note.link }}">Paper link</a>] 
         </li>
       {%endfor%}
     </ul>
