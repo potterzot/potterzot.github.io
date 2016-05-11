@@ -20,6 +20,17 @@ fetched: "20160506"
 
 **Citation:** Bevis, Leah and Chrisopher B. Barrett. "Close to the Edge: Do Behavioral Explanations Account for the Inverse Productivity Relationship?", *Unpublished* (2016). [[Paper link](http://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf)]
 
+#### First Pass
+
+Category: [theory, applied, etc...]
+Context: 
+Correctness
+Contributions
+Clarity
+
+
+
+
 #### Data
 Data are plot-level panel data from Uganda from two surveys taken a decade apart (2003 by IFPRI and 2013 by NSF-funded), spatially matched across time by their gps coordinates. Plot shape and size shifted during that time, allowing the examination of the same land under different plot configurations. 859 households in 2003, 803 of which were interviewed in 2013.
 
