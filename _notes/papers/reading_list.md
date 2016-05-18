@@ -3,13 +3,14 @@ layout: mathpost
 title: Reading List
 ---
 
-* Nikolov2013
-Quarterly Journal of Economics
+* Lantz2013 (machine learning in R)
+* ChernozhukovXXXX
+* Dudenhefer2009
+* Nikolov2013 Quarterly Journal of Economics
 * Akerlof, George A, 1970. "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism"
 * Spence, A Michael, 1973. "Job Market Signaling" 
-Rothschild, Michael & Stiglitz, Joseph E, 1976. "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information"
-Econometrica
-Amos Tversky & Daniel Kahneman, 1979. "Prospect Theory: An Analysis of Decision under Risk"
+* Rothschild, Michael & Stiglitz, Joseph E, 1976. "Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information" Econometrica
+* Amos Tversky & Daniel Kahneman, 1979. "Prospect Theory: An Analysis of Decision under Risk"
 Lucas, Robert E, Jr, 1978. "Asset Prices in an Exchange Economy"
 Sims, Christopher A, 1980. "Macroeconomics and Reality" 
 Merton, Robert C, 1973. "An Intertemporal Capital Asset Pricing Model" 
