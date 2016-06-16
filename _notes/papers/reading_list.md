@@ -3,6 +3,7 @@ layout: mathpost
 title: Reading List
 ---
 
+* Keshav2016
 * Lantz2013 (machine learning in R)
 * ChernozhukovXXXX
 * Dudenhefer2009
@@ -45,3 +46,4 @@ Robert Solow, 1984. "Mr. Hicks and the Classics", Oxford Economic Papers
 * **GreensteinPeitzValletti2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.30.2.127
 * **Angrist2014**: (Economics and Econometrics) http://dx.doi.org/10.1016/j.labeco.2014.05.008
 * **AiNorton2003**: (Economics and Econometrics) http://dx.doi.org/10.1016/s0165-1765(03)00032-6
+* **SchlenkerRoberts2009**: (General) http://dx.doi.org/10.1073/pnas.0906865106
