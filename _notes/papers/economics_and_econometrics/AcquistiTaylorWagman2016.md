@@ -2,7 +2,7 @@
 layout: mathpost
 type: "journal-article"
 authors: ['Alessandro Acquisti', 'Curtis Taylor', 'Liad Wagman']
-title: "The Economics of Privacy†"
+title: "The Economics of Privacy"
 container: "Journal of Economic Literature"
 year: "2016"
 issue: "2"
