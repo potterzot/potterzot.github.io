@@ -2,7 +2,7 @@
 layout: mathpost
 type: "journal-article"
 authors: ['Jon Kleinberg', 'Jens Ludwig', 'Sendhil Mullainathan', 'Ziad Obermeyer']
-title: "Prediction Policy Problems †"
+title: "Prediction Policy Problems"
 container: "American Economic Review"
 year: "2015"
 issue: "5"
