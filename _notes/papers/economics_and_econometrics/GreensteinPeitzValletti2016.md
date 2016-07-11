@@ -2,7 +2,7 @@
 layout: mathpost
 type: "journal-article"
 authors: ['Shane Greenstein', 'Martin Peitz', 'Tommaso Valletti']
-title: "Net Neutrality: A Fast Lane to Understanding the Trade-offs†"
+title: "Net Neutrality: A Fast Lane to Understanding the Trade-offs"
 container: "Journal of Economic Perspectives"
 year: "2016"
 issue: "2"
