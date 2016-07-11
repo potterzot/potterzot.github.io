@@ -47,3 +47,13 @@ Robert Solow, 1984. "Mr. Hicks and the Classics", Oxford Economic Papers
 * **Angrist2014**: (Economics and Econometrics) http://dx.doi.org/10.1016/j.labeco.2014.05.008
 * **AiNorton2003**: (Economics and Econometrics) http://dx.doi.org/10.1016/s0165-1765(03)00032-6
 * **SchlenkerRoberts2009**: (General) http://dx.doi.org/10.1073/pnas.0906865106
+* **ChalfinETAL2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/aer.p20161029
+* **LernerTirole2003**: (Economics and Econometrics) http://dx.doi.org/10.1111/1467-6451.00174
+* **ParthaDavid1994**: (Management of Technology and Innovation) http://dx.doi.org/10.1016/0048-7333(94)01002-1
+* **LernerTirole2005**: (Economics and Econometrics) http://dx.doi.org/10.1257/0895330054048678
+* **Thaler2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/aer.106.7.1577
+* **KleinbergETAL2015**: (Economics and Econometrics) http://dx.doi.org/10.1257/aer.p20151023
+* **Iyer2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jel.54.2.395
+* **GreensteinPeitzValletti2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.30.2.127
+* **BertrandMorse2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00613
+* **AcquistiTaylorWagman2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jel.54.2.442
