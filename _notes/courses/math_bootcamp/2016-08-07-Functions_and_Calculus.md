@@ -16,7 +16,7 @@ course: "Math Bootcamp"
 #### Differentiation
 * $$C^1$$: `C^1`, continuously differentiable once.
 
-**Intermediate Value Theorem (IVT)**: If $$f(x) is $$C$$ and $$f(a) = r, f(b) = s$$, then $$f(x) \in [r, s]$$.
+**Intermediate Value Theorem (IVT)**: If $$f(x)$$ is $$C$$ and $$f(a) = r, f(b) = s$$, then $$f(x) \in [r, s]$$.
 **Extreme Value Theorem (EVT)**: $$f(x)$$ has a min and max on any closed interval $$(a,b)$$.
 
 **Mean Value Theorem (MVT)**: If $$f(x)$$ is $$C$$ on $$[a, b]$$ and differentiable on $$(a, b)$$, then $$f'(c) = \frac{f(b) -  f(a)}{b - a}$$ for at least one $$c, a < c < b$$.
@@ -30,7 +30,7 @@ A typical proof follows the above definition directly.
 
 We can also refer to the **epsilon neighborhood**, which is the set of $$x$$ s.t., if $$a \in \mathbb{R}$$ and $$\epsilon > 0$$, $$B_\epsilon (a) = \{x \in \mathbb{R}: |x - a| < \epsilon\} = (a - \epsilon, a + \epsilon)$$.
 
-Alternatively, we can restate the def. of the limit as: $${a} \rightarrow L$$ if for all $$\epsilon > 0, \exists N \in \mathbb{N}$$ s.t. $$\forall n > N, a_n \in {B_\epsilon (L)$$.
+Alternatively, we can restate the def. of the limit as: $${a} \rightarrow L$$ if for all $$\epsilon > 0, \exists N \in \mathbb{N}$$ s.t. $$\forall n > N, a_n \in B_\epsilon (L)$$.
 
 A function is **continuous** if, given a function $$f:x \rightarrow \mathbb{R}$$, then $$\lim_{x \to a} f(x) = f(a)$$. Alternatively:
 
@@ -45,7 +45,7 @@ b) $$\forall \epsilon > 0, \exists \delta > 0, \forall x: B_\delta (a) \rightarr
 * $$(u(v))' = v'u'$$: `(u(v))' = v'u'`.
 * $$(x^n)' = nx^{n-1}$$: `(x^n)' = nx^{n-1}`.
 * $$f^{-1}$$: `f^{-1}`, the inverse function of $$f(x)$$.
-* If $$f^{-1} = g(z)$$, then $$g'(z) = \frac{1}{f'(g(z))$$.
+* If $$f^{-1} = g(z)$$, then $$g'(z) = \frac{1}{f'(g(z))}$$.
 
 #### Logs and Exponents
 This should probably go somewhere else but...
