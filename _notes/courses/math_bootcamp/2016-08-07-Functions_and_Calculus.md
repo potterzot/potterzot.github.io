@@ -17,6 +17,7 @@ course: "Math Bootcamp"
 * $$C^1$$: `C^1`, continuously differentiable once.
 
 **Intermediate Value Theorem (IVT)**: If $$f(x)$$ is $$C$$ and $$f(a) = r, f(b) = s$$, then $$f(x) \in [r, s]$$.
+
 **Extreme Value Theorem (EVT)**: $$f(x)$$ has a min and max on any closed interval $$(a,b)$$.
 
 **Mean Value Theorem (MVT)**: If $$f(x)$$ is $$C$$ on $$[a, b]$$ and differentiable on $$(a, b)$$, then $$f'(c) = \frac{f(b) -  f(a)}{b - a}$$ for at least one $$c, a < c < b$$.
