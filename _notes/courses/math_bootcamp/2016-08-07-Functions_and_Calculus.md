@@ -25,17 +25,18 @@ course: "Math Bootcamp"
 A **Taylor Polynomial** is an approximation of the derivative of $$f$$, s.t. $$f'(x) = f(a) + \frac{f'(a)}{1!}(x - a) + \frac{f''(a)}{2!}(x - a)^2 + ... + \frac{f^{(n)}(a)}{n!}(x - a)^n$$.
 
 #### Limits
-The limit, $$\lim_{x \to \infty} a_n = L$$ is written `\lim_{x \to \infty} a_n = L`. $$L \in \mathbb{R}$$ is the limit of $$f$$ if as $$x$$ approaches $$a$$, where $$a \in \mathbb{R}, \exists \epsilon > 0$$ and $$\delta > 0$$ s.t. $$\forall x, 0 < |x - a| < \delta$$, then it follows that $$|f(x) - L| < \epsilon$$.
+The limit, $$\lim_{x \to \infty} a_n = L$$ is written `\lim_{x \to \infty} a_n = L`. $$L \in \mathbb{R}$$ is the limit of $$f$$ if as $$x$$ approaches $$a$$, where $$a \in \mathbb{R}, \exists \epsilon > 0$$ and $$\delta > 0$$ s.t. $$\forall x, 0 < |x - a| < \delta$$, then it follows that $$\mid f(x) - L \mid < \epsilon$$.
 
 A typical proof follows the above definition directly.
 
-We can also refer to the **epsilon neighborhood**, which is the set of $$x$$ s.t., if $$a \in \mathbb{R}$$ and $$\epsilon > 0$$, $$B_\epsilon (a) = \{x \in \mathbb{R}: |x - a| < \epsilon\} = (a - \epsilon, a + \epsilon)$$.
+
+We can also refer to the **epsilon neighborhood**, which is the set of $$x$$ s.t., if $$a \in \mathbb{R}$$ and $$\epsilon > 0$$, $$B_\epsilon (a) = \{x \in \mathbb{R}: \mid x - a \mid < \epsilon\} = (a - \epsilon, a + \epsilon)$$.
 
 Alternatively, we can restate the def. of the limit as: $${a} \rightarrow L$$ if for all $$\epsilon > 0, \exists N \in \mathbb{N}$$ s.t. $$\forall n > N, a_n \in B_\epsilon (L)$$.
 
 A function is **continuous** if, given a function $$f:x \rightarrow \mathbb{R}$$, then $$\lim_{x \to a} f(x) = f(a)$$. Alternatively:
 
-a) $$\forall \epsilon > 0, \exists \delta > 0, \forall x: |x - a| < \delta, [f(x) - f(a) < \epsilon]$$.
+a) $$\forall \epsilon > 0, \exists \delta > 0, \forall x: \mid x - a \mid < \delta, [f(x) - f(a) < \epsilon]$$.
 
 b) $$\forall \epsilon > 0, \exists \delta > 0, \forall x: B_\delta (a) \rightarrow f(x) \in B_\epsilon (f(a))$$.
 
