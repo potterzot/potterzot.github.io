@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Notes for Statistics for Economists"
+navigation: true
+---
+
+{% assign coll = site.notes | where: "course", "Statistics for Economists" %}
+
+<div class="blog-archives">
+
+<ul>
+{% for note in coll %}
+  <li>
+    <a href="{{ note.url }}">{{ note.title }}</a>.
+  </li>
+{% endfor %}
+</ul>
+
+<p>Back to <a href="/notes/courses">Courses</a>.</p>
+<p>Back to <a href="/notes">Notes</a>.</p>
