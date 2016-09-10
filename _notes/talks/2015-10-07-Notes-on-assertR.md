@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Notes on assertR by Tony Fischetti
+type: "talk"
+speakers: ["Tony Fischetti"]
+citationkey: Fischetti2015
 ---
 
 I'm excited to use this package. For EDA you don't always know exactly what things should look like, but being able to constrain each of your variables so that you know at the start of your analysis whether there is something wrong with it has huge implications, the two foremost in my mind being:
