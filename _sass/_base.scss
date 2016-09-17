@@ -47,6 +47,9 @@ img {
     vertical-align: middle;
 }
 
+img.roundimg {
+  border-radius: 4px;
+}
 
 
 /**
@@ -104,6 +107,7 @@ a {
     }
 }
 
+#site-title { font-size: 40px; }
 #site-title > a:hover { color: $text-color; }
 
 

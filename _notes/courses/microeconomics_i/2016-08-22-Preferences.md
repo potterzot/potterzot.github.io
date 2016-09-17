@@ -1,8 +1,8 @@
 ---
 layout: mathpost
 type: course
-title: "Preference Relations" 
-course: "Microeconomics I"
+title: "Preference Relations"
+course: "micro_i"
 ---
 
 #### Basic Preferneces
@@ -27,7 +27,6 @@ We also assume **reflexivity**, that $$x \succeq x$$.
 Note that if $$A \succeq B \succeq C \succeq A$$, theoretically this person would be willing to spend in a cycle because they always prefer an option they don't have. There are four general sources of this behavior:
 
 1. Alternatives are not distinguishable. If $$x \succ y$$ if $$x \succeq y - 1$$, but $$x \sim y$$ if $$\vert x - y \vert < 1$$.
-2. Framing effects. 
+2. Framing effects.
 3. Aggregation of criteria. Given multiple options with different traits, the aggregation of these traits can create cyclical preferences when compared pairwise. Analogous to group decision making, where one option is always preferred among two people, but no single option is preferred by the group as a whole.
 4. Change in preferences - not really a violation, but still causes referesal or change in preference order.
-

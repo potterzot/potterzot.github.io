@@ -2,12 +2,14 @@
 layout: mathpost
 type: course
 title: "Convexity of Preferences"
-course: "Microeconomics I"
+course: "micro_i"
 ---
 
 **Convexity** implies that a linear combination of two bundles will be weakly preferred to just one bundle. Essentially it's a preference for balance rather than extremes. In notation:
 
-Convexity: $$x \succeq y \Rightarrow ax + (1-a)y \succeq y$$. Equivalently, for all bundles $$x,y,z \in X$$:
+$$x \succeq y \Rightarrow ax + (1-a)y \succeq y$$
+
+Equivalently, for all bundles $$x,y,z \in X$$:
 
 $$
 \begin{array}{lr}
@@ -34,13 +36,13 @@ But at the indifference curve $$du = 0$$, so for any two bundles $$i$$ and $$j$$
 
 $$0 = \frac{\partial u}{\partial x_i} dx_i + \frac{\partial u}{\partial x_j} dx_j$$.
 
-Solving for $$\frac{dx_j}{dx_i}, we obtain
+Solving for $$\frac{dx_j}{dx_i}$$, we obtain
 
 $$
 -\frac{dx_j}{dx_i} = \frac{\frac{\partial u}{\partial x_i}}{\frac{\partial u}{\partial x_j}} = MRS_{i,j}
 $$.
 
-A utility function is **Quasiconcave** if, $$\forall y \in X$$, $$UCS(x) = \{y \in X | u(y) \succeq u(x)\}$$. Convexity equals convex UCS equals quasiconcave utility function.
+A utility function is **Quasiconcave** if, $$\forall y \in X$$, $$UCS(x) = \{y \in X \vert u(y) \succeq u(x)\}$$. Convexity equals convex UCS equals quasiconcave utility function.
 
 Alternatively, quasiconcavity implies $$u(ax + (1-a)y) \ge \min\{u(x), u(y)\}$$. If the inequality is just greater than, then the utility function is **strictly quasiconcave**.
 
