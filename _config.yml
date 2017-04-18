@@ -62,6 +62,9 @@ figures:
   analytics: true
 
 collections:
+  runs:
+    output: true
+    permalink: /running/:path/
   stories:
     output: true
     permalink: /stories/:path/
