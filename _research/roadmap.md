@@ -6,7 +6,7 @@ title: Research Roadmap
 ### Primary Interests
 * Understanding the causal mechanisms at work in the behavior of human beings and their economic systems.
 * Developing models that have strong predictive power but are also explanatory. I.e. I want to know the **reason** that there is a causal connection, not just that there is one. In this sense, I am more interested in theories and mechanisms that are **descriptive** and **predictive** rather than **normative**.
-* Econometric and statistical methods, particularly causal inference, bayesian statistics, and statistical learning methods. Use of bayesian statistics has expanded rapidly since the early 2000s, 
+* Econometric and statistical methods, particularly causal inference, bayesian statistics, and statistical learning methods. Use of bayesian statistics has expanded rapidly since the early 2000s,
 * Prediction, especially of human behavior in situations of scarcity (see [Sendhil Mullainathan](http://scholar.harvard.edu/sendhil/home)'s work and Daniel Kahneman's [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)).
 * How tech like ubiquitous data (gathered through wearables or observation) can be used in concert with the above topics to answer economic questions.
 
@@ -24,3 +24,7 @@ title: Research Roadmap
 
 ### Notes
 <i>Stephen Intille's PhD [advice page](http://www.ccs.neu.edu/home/intille/teaching/advising/tips.htm) is a great resource.</i>
+
+$$~$$
+
+[Back to research](../)

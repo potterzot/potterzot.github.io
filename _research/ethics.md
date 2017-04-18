@@ -24,3 +24,8 @@ With this as my ethical base and perspective, I commit to the following (in no p
 * I will not engage in research that causes loss of life, restriction of liberty, or restriction of the pursuit of happiness.
 
 I recognize that the interpretation of these statements is complex and fraught with inconsistencies. But much like the constitution of the United States, it is a living document. I will do my best to interpret it in as intellectually honest a way as possible.
+
+
+$$~$$
+
+[Back to research](../)

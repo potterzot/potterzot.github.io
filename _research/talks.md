@@ -11,4 +11,4 @@ Bayesian structural time series models and inference: an introduction to [Causal
 
 $$~$$
 
-[Back to research](../).
+[Back to research](../)
