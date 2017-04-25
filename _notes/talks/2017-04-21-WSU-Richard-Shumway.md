@@ -2,8 +2,8 @@
 layout: mathpost
 title: Notes on the Symposium in Honor of Richard Shumway
 type: "talk"
-speakers: ["George Davis", "Lilyan Fulginiti"]
-citationkey:
+speakers: ["George Davis", "Lilyan Fulginiti", "Christopher McIntosh", "Spiro Stefanou", "Andrew Cassey", "Thomas Marsh"]
+citationkey: WSUShumwaySymposium2017
 ---
 
 ### Richard Shumway's Rules for Achieving Success in Life

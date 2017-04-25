@@ -2,8 +2,8 @@
 layout: post
 title: Notes from WSU Data Science Day 2017
 type: "talk"
-speakers: ["Tony Fischetti"]
-citationkey: Fischetti2015
+speakers: ["Multiple Speakers"]
+citationkey: WSUDataScience2017
 ---
 
 ### Talk 1 (PNWL):
