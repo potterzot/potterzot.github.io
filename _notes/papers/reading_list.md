@@ -58,3 +58,4 @@ Robert Solow, 1984. "Mr. Hicks and the Classics", Oxford Economic Papers
 * **BertrandMorse2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00613
 * **AcquistiTaylorWagman2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jel.54.2.442
 * **SchlenkerRoberts2009**: (General) http://dx.doi.org/10.1073/pnas.0906865106
+* **Leamer2010**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.24.2.31
