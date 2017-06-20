@@ -22,9 +22,11 @@ fetched: "20170619"
 
 **Citation:** Leamer, Edward E. "Tantalus on the Road to Asymptopia". *Journal of Economic Perspectives* 24, no. 2 (2010): 31-46. [[Paper link](http://dx.doi.org/10.1257/jep.24.2.31)]
 
+#### Questions
 * Look up Deacon 2008
 * What was the Cowles Foundation asymptotic properties theory that is referenced as being an "emporer with no clothes" phenomena?
 
+#### Summary
 Leamer's Primary concerns seem to be:
 
 1. Numerous confounding variables, which is discussed if I remember right in papers by Newey, Imbens, Bekker, etc...
