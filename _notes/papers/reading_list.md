@@ -59,3 +59,13 @@ title: Reading List
 * [ ]  William Vickrey, 1961. "Counterspeculation, Auctions, And Competitive Sealed Tenders," Journal of Finance
 * [ ]  Ronald Coase, 1937. "The Nature of the Firm", Economica
 * [ ]  Robert Solow, 1984. "Mr. Hicks and the Classics", Oxford Economic Papers
+[ ] **Leamer1973**: (Economics and Econometrics) http://dx.doi.org/10.2307/1927962
+* [ ] **BabcockETAL1996**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1243852
+* [ ] **Wu2000**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/0002-9092.00096
+* [ ] **Wu2005**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/j.0002-9092.2005.00716.x
+* [ ] **WuLin2009**: (Economics and Econometrics) http://dx.doi.org/10.3368/le.86.1.1
+* [ ] **BursztynEgorovFiorin2017**: (Unsorted) http://dx.doi.org/10.3386/w23415
+* [ ] **MiaoKhannaHuang2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav025
+* [ ] **Kahn2016**: (Economics and Econometrics) http://dx.doi.org/10.1093/reep/rev023
+* [ ] **CapozzaHelsley1990**: (Economics and Econometrics) http://dx.doi.org/10.1016/0094-1190(90)90050-W
+* [ ] **Latacz-LohmannderHamsvoort1997**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1244139
