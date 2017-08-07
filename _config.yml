@@ -106,7 +106,7 @@ google_analytics_tracking_id: UA-2451740-1
 #
 # # Markdown Processors
 pandoc:
-  extensions: [smart, normalize, mathjax, csl: _styles/apa.csl, bibliography: bibliography.bib]
+  extensions: [smart, normalize, mathjax, csl: _styles/apa.csl, bibliography: files/library.bib]
 
 rdiscount:
   extensions: []

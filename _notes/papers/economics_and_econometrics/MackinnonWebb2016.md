@@ -2,7 +2,6 @@
 date: "March 01, 2016"
 title: "Wild Bootstrap Inference for Wildly Different Cluster Sizes"
 citationkey: MackinnonWebb2016
-bibliography: ../../library.bib
 output: html_document
 ---
 

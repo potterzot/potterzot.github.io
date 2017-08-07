@@ -2,7 +2,6 @@
 date: "February 23, 2016"
 title: "Best Practices for Scientific Computing"
 citation: WilsonETAL2014
-bibliography: ../../library.bib
 output: html_document
 ---
 
