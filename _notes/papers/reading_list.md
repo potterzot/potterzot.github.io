@@ -3,7 +3,17 @@ layout: mathpost
 title: Reading List
 ---
 
-* [ ]   **Varian2014**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.28.2.3
+* [ ]  **Leamer1973**: (Economics and Econometrics) http://dx.doi.org/10.2307/1927962
+* [ ]  **Friedman1962**: Milton Friedman, Capitalism and Freedom
+* [ ]  **Heilbroner1953**: Robert Heilbroner, The Worldly Philosophers
+* [ ]  **Krugman1995**: Paul Krugman, Peddling Prosperity
+* [ ]  **Landsburg2007**: Steven Landsburg, The Armchair Economist
+* [ ]  **ORouke2007**: P.J. O'Rourke, Eat the Rich
+* [ ]  **Malkiel1990**: Burton Malkiel, A Random Walk Down Wall Street
+* [ ]  **DixitNalebuff1993**: Avinash Dixit and Barry Nalebuff, Thinking Strategically
+* [ ]  **McMillan2003**: John McMillan, Reinventing the Bazaar
+* [ ]  **BreitHirsch**: William Breit and Barry T. Hirsch, Lives of the Laureates
+* [ ]  **Varian2014**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.28.2.3
 * [ ]  **YangShumway2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav042
 * [ ]  **BaiLi2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00519
 * [ ]  **BaltussenvandenAssemvanDolder2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00505
@@ -24,10 +34,6 @@ title: Reading List
 * [ ]  **BertrandMorse2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00613
 * [ ]  **AcquistiTaylorWagman2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jel.54.2.442
 * [ ]  **SchlenkerRoberts2009**: (General) http://dx.doi.org/10.1073/pnas.0906865106
-* [X] **Leamer2010**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.24.2.31
-* [X] **MullainathanSpiess2017**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.31.2.87
-* [X] **Rekdal2014**: (History and Philosophy of Science) http://dx.doi.org/10.1177/0306312714535679
-
 * [ ]  Keshav2016
 * [ ]  Lantz2013 (machine learning in R)
 * [ ]  ChernozhukovXXXX
@@ -59,13 +65,18 @@ title: Reading List
 * [ ]  William Vickrey, 1961. "Counterspeculation, Auctions, And Competitive Sealed Tenders," Journal of Finance
 * [ ]  Ronald Coase, 1937. "The Nature of the Firm", Economica
 * [ ]  Robert Solow, 1984. "Mr. Hicks and the Classics", Oxford Economic Papers
-[ ] **Leamer1973**: (Economics and Econometrics) http://dx.doi.org/10.2307/1927962
-* [ ] **BabcockETAL1996**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1243852
-* [ ] **Wu2000**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/0002-9092.00096
-* [ ] **Wu2005**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/j.0002-9092.2005.00716.x
-* [ ] **WuLin2009**: (Economics and Econometrics) http://dx.doi.org/10.3368/le.86.1.1
-* [ ] **BursztynEgorovFiorin2017**: (Unsorted) http://dx.doi.org/10.3386/w23415
-* [ ] **MiaoKhannaHuang2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav025
-* [ ] **Kahn2016**: (Economics and Econometrics) http://dx.doi.org/10.1093/reep/rev023
-* [ ] **CapozzaHelsley1990**: (Economics and Econometrics) http://dx.doi.org/10.1016/0094-1190(90)90050-W
-* [ ] **Latacz-LohmannderHamsvoort1997**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1244139
+* [ ]  **BabcockETAL1996**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1243852
+* [ ]  **Wu2000**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/0002-9092.00096
+* [ ]  **Wu2005**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/j.0002-9092.2005.00716.x
+* [ ]  **WuLin2009**: (Economics and Econometrics) http://dx.doi.org/10.3368/le.86.1.1
+* [ ]  **BursztynEgorovFiorin2017**: (Unsorted) http://dx.doi.org/10.3386/w23415
+* [ ]  **MiaoKhannaHuang2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav025
+* [ ]  **Kahn2016**: (Economics and Econometrics) http://dx.doi.org/10.1093/reep/rev023
+* [ ]  **CapozzaHelsley1990**: (Economics and Econometrics) http://dx.doi.org/10.1016/0094-1190(90)90050-W
+* [ ]  **Latacz-LohmannderHamsvoort1997**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1244139
+* [X]  **Leamer2010**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.24.2.31
+* [X]  **MullainathanSpiess2017**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.31.2.87
+* [X]  **Rekdal2014**: (History and Philosophy of Science) http://dx.doi.org/10.1177/0306312714535679
+* [X]  **LevittDubner2009**: Steven Levitt and Stephen Dubner, Freakonomics
+* [X]  **McCloskey2000**: Economical Writing
+* [X]  **McCloskey2000**: How to be Human*: *Though an economist
