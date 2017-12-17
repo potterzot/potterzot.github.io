@@ -3,6 +3,7 @@
   <p data-mh="software" style="margin-bottom: 20px; line-height: 2.5rem;">
     <a href="https://github.com/{{ pgm.github }}">{{ pgm.name }}</a>: {{ pgm.description }}<br/>
     {% if pgm.language == "r" %}
+      <img src="https://travis-ci.org/potterzot/rnassqs.svg?branch=master">
       {% if pgm.package %}
         <a href="http://cran.rstudio.com/web/packages/{{ pgm.package }}/index.html">
           <img src="http://www.r-pkg.org/badges/version/{{ pgm.package }}">

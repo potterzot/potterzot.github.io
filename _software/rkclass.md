@@ -2,6 +2,6 @@
 name: rkclass
 description: R package for Instrumental Variables Regressions.
 github: potterzot/rkclass
-order: 20
+order: 30
 language: r
 ---
