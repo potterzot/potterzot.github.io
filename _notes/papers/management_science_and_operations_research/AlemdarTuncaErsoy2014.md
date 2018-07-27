@@ -9,7 +9,7 @@ volume: "19"
 pages: "303-315"
 subjects: "Management Science and Operations Research, Hardware and Architecture, Computer Science Applications"
 doi: "10.1007/s00779-014-0823-y"
-link: "http://dx.doi.org/10.1007/s00779-014-0823-y"
+link: "https://dx.doi.org/10.1007/s00779-014-0823-y"
 citationkey: "AlemdarTuncaErsoy2014"
 updated: "20160315"
 ---

@@ -12,13 +12,13 @@ volume: ""
 pages: ""
 subjects: ['Economics and Econometrics']
 doi: ""
-link: "http://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf"
+link: "https://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf"
 citation: "Bevis, Leah and Chrisopher B. Barrett. 'Close to the Edge: Do Behavioral Explanations Account for the Inverse Productivity Relationship?', *Unpublished* (2016)."
 citationkey: "BevisBarrett2016"
 fetched: "20160506"
 ---
 
-**Citation:** Bevis, Leah and Chrisopher B. Barrett. "Close to the Edge: Do Behavioral Explanations Account for the Inverse Productivity Relationship?", *Unpublished* (2016). [[Paper link](http://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf)]
+**Citation:** Bevis, Leah and Chrisopher B. Barrett. "Close to the Edge: Do Behavioral Explanations Account for the Inverse Productivity Relationship?", *Unpublished* (2016). [[Paper link](https://www.leahbevis.com/wp-content/uploads/2016/05/Bevis-and-Barrett-Edge-Effects-and-the-Inverse-Relationship-April-2016.pdf)]
 
 #### First Pass
 

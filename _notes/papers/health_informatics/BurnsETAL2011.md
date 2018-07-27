@@ -9,7 +9,7 @@ volume: 13
 pages: e55
 subjects: Health Informatics
 doi: 10.2196/jmir.1838
-link: http://dx.doi.org/10.2196/jmir.1838
+link: https://dx.doi.org/10.2196/jmir.1838
 citation_key: BurnsETAL2011
 updated: 20160302
 ---

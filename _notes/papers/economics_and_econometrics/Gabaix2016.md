@@ -9,7 +9,7 @@ volume: "30"
 pages: "185-206"
 subjects: "Economics and Econometrics"
 doi: "10.1257/jep.30.1.185"
-link: "http://dx.doi.org/10.1257/jep.30.1.185"
+link: "https://dx.doi.org/10.1257/jep.30.1.185"
 citationkey: "Gabaix2016"
 updated: "20160315"
 ---

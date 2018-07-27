@@ -27,7 +27,7 @@ Simple summarizing of data with `dplyr` looks like this:
 
 {% endhighlight %}
 
-Here `group_by()` groups your data by week and `summarize()` applies `mean()` and `sd()` to each group. `%>%` is a pipe operator that applies the output of a previous function to the next function. You can have lots of fun reading about it and dplyr in this nice [post](http://seananderson.ca/2014/09/13/dplyr-intro.html).
+Here `group_by()` groups your data by week and `summarize()` applies `mean()` and `sd()` to each group. `%>%` is a pipe operator that applies the output of a previous function to the next function. You can have lots of fun reading about it and dplyr in this nice [post](https://seananderson.ca/2014/09/13/dplyr-intro.html).
 
 So, that's great and all. But you can extend this to apply to any function, not just `mean()` and `sd()`:
 {% highlight r %}
@@ -87,7 +87,7 @@ We want to wrap `calcGDD()` in a summarize statement, but make it flexible enoug
     dynamicSummarize(df, "temp", "day")
 {% endhighlight %}
 
-Notice that "group_by" is now "group_by_" and "summarize" is now "summarize_". The added "_" to many (all?) dplyr functions allows for what is called **non-standard evaluation** (NSE). Basically, evaluation is held until the value for a variable can be substituted, rather than evaluated directly. So here "group_var" is first evaluated to its value "day", which is then passed to the group_by function. Wickham has a great vignette you can access in R by `vignette("nse"), or you can read about it in [Advanced R](http://adv-r.had.co.nz/Computing-on-the-language.html).
+Notice that "group_by" is now "group_by_" and "summarize" is now "summarize_". The added "_" to many (all?) dplyr functions allows for what is called **non-standard evaluation** (NSE). Basically, evaluation is held until the value for a variable can be substituted, rather than evaluated directly. So here "group_var" is first evaluated to its value "day", which is then passed to the group_by function. Wickham has a great vignette you can access in R by `vignette("nse"), or you can read about it in [Advanced R](https://adv-r.had.co.nz/Computing-on-the-language.html).
 
 With the dynamic function, if you had multiple data sets for which you wanted to calculate the mean over a group, instead of grouping and summarizing each one, you could just make a series of calls to `dynamicSummarize()`. A custom function works the same way:
 {% highlight r %}

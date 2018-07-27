@@ -15,9 +15,9 @@ volume: "54"
 pages: "442-492"
 subjects: ['Economics and Econometrics']
 doi: "10.1257/jel.54.2.442"
-link: "http://dx.doi.org/10.1257/jel.54.2.442"
+link: "https://dx.doi.org/10.1257/jel.54.2.442"
 citationkey: "AcquistiTaylorWagman2016"
 fetched: "20160711"
 ---
 
-**Citation:** Acquisti, Alessandro, Curtis Taylor, and Liad Wagman. "The Economics of Privacy". *Journal of Economic Literature* 54, no. 2 (2016): 442-492. [[Paper link](http://dx.doi.org/10.1257/jel.54.2.442)]
+**Citation:** Acquisti, Alessandro, Curtis Taylor, and Liad Wagman. "The Economics of Privacy". *Journal of Economic Literature* 54, no. 2 (2016): 442-492. [[Paper link](https://dx.doi.org/10.1257/jel.54.2.442)]

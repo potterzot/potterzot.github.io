@@ -9,7 +9,7 @@ volume: "8"
 pages: ""
 subjects: "Unsorted"
 doi: "10.1146/annurev-resource-100913-012630"
-link: "http://dx.doi.org/10.1146/annurev-resource-100913-012630"
+link: "https://dx.doi.org/10.1146/annurev-resource-100913-012630"
 citationkey: "McCluskeyKalaitzandonakesSwinnen2014"
 updated: "20160315"
 ---

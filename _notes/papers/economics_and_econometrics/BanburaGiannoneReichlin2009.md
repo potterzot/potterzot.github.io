@@ -9,7 +9,7 @@ volume: "25"
 pages: "71-92"
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1002/jae.1137"
-link: "http://dx.doi.org/10.1002/jae.1137"
+link: "https://dx.doi.org/10.1002/jae.1137"
 citationkey: "BaburaGiannoneReichlin2009"
 updated: "20160303"
 ---

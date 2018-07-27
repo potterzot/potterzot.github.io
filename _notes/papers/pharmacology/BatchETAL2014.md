@@ -9,7 +9,7 @@ volume: "37"
 pages: "333-341"
 subjects: "Pharmacology (medical), Medicine(all)"
 doi: "10.1016/j.cct.2014.01.003"
-link: "http://dx.doi.org/10.1016/j.cct.2014.01.003"
+link: "https://dx.doi.org/10.1016/j.cct.2014.01.003"
 citationkey: "BatchETAL2014"
 updated: "20160315"
 ---

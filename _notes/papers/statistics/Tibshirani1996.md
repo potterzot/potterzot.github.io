@@ -9,7 +9,7 @@ volume: "58"
 pages: "267-288"
 subjects: "Statistics"
 doi: ""
-link: "http://www.jstor.org/stable/2346178"
+link: "https://www.jstor.org/stable/2346178"
 citationkey: "Tibshirani1996"
 updated: "20160303"
 ---

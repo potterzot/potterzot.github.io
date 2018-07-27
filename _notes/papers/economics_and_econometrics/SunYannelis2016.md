@@ -9,7 +9,7 @@ volume: "98"
 pages: "12-24"
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1162/rest_a_00558"
-link: "http://dx.doi.org/10.1162/REST_a_00558"
+link: "https://dx.doi.org/10.1162/REST_a_00558"
 citationkey: "SunYannelis2016"
 updated: "20160315"
 ---

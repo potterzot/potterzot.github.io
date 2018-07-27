@@ -15,9 +15,9 @@ volume: ""
 pages: ""
 subjects: ['Economics and Econometrics', 'Social Sciences (miscellaneous)']
 doi: "10.1162/rest_a_00613"
-link: "http://dx.doi.org/10.1162/REST_a_00613"
+link: "https://dx.doi.org/10.1162/REST_a_00613"
 citationkey: "BertrandMorse2016"
 fetched: "20160711"
 ---
 
-**Citation:** Bertrand, Marianne, and Adair Morse. "Trickle-Down Consumption". *Review of Economics and Statistics* (2016). [[Paper link](http://dx.doi.org/10.1162/REST_a_00613)]
+**Citation:** Bertrand, Marianne, and Adair Morse. "Trickle-Down Consumption". *Review of Economics and Statistics* (2016). [[Paper link](https://dx.doi.org/10.1162/REST_a_00613)]

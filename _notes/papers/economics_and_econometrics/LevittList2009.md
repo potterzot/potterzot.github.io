@@ -15,9 +15,9 @@ volume: "53"
 pages: "1-18"
 subjects: ['Economics and Econometrics', 'Finance']
 doi: "10.1016/j.euroecorev.2008.12.001"
-link: "http://dx.doi.org/10.1016/j.euroecorev.2008.12.001"
+link: "https://dx.doi.org/10.1016/j.euroecorev.2008.12.001"
 citationkey: "LevittList2009"
 fetched: "20170111"
 ---
 
-**Citation:** Levitt, Steven D., and John A. List. "Field experiments in economics: The past, the present, and the future". *European Economic Review* 53, no. 1 (2009): 1-18. [[Paper link](http://dx.doi.org/10.1016/j.euroecorev.2008.12.001)]
+**Citation:** Levitt, Steven D., and John A. List. "Field experiments in economics: The past, the present, and the future". *European Economic Review* 53, no. 1 (2009): 1-18. [[Paper link](https://dx.doi.org/10.1016/j.euroecorev.2008.12.001)]

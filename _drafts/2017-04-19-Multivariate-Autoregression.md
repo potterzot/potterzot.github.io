@@ -3,7 +3,7 @@ layout: mathpost
 title: Multivariate Autogression State Space (CEREOS R Working Group)
 ---
 
-I love cross-discipline groups. Today I attended a presentation by [Stephen Katz](http://cahnrs.wsu.edu/soe/people/facultynstaff/stephenkatz/) at the
+I love cross-discipline groups. Today I attended a presentation by [Stephen Katz](https://cahnrs.wsu.edu/soe/people/facultynstaff/stephenkatz/) at the
 [CEREOS R Working Group](https://cereo.wsu.edu/2017/04/17/package-intro-multivariate-time-series-mar-models/) on multivariate autoregression using the [MAR1](https://cran.r-project.org/web/packages/MAR1/index.html) and [MARSS](https://cran.r-project.org/web/packages/MARSS/index.html) packages.
 
 The basic format is a state-space model of the form

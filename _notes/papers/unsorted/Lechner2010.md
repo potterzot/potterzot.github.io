@@ -9,7 +9,7 @@ volume: "4"
 pages: "165-224"
 subjects: "Unsorted"
 doi: "10.1561/0800000014"
-link: "http://dx.doi.org/10.1561/0800000014"
+link: "https://dx.doi.org/10.1561/0800000014"
 citationkey: "Lechner2010"
 updated: "20160311"
 ---

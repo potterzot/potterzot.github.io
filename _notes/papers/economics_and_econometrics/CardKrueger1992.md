@@ -10,7 +10,7 @@ volume: "100"
 pages: "1-40"
 subject: ['Economics and Econometrics']
 doi: "10.1086/261805"
-link: "http://dx.doi.org/10.1086/261805"
+link: "https://dx.doi.org/10.1086/261805"
 citationkey: "CardKrueger1992"
 fetched: "20160421"
 ---

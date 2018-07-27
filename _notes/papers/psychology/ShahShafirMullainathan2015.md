@@ -9,7 +9,7 @@ volume: "26"
 pages: "402-412"
 subjects: "Psychology(all)"
 doi: "10.1177/0956797614563958"
-link: "http://dx.doi.org/10.1177/0956797614563958"
+link: "https://dx.doi.org/10.1177/0956797614563958"
 citationkey: "ShahShafirMullainathan2015"
 updated: "20160315"
 ---

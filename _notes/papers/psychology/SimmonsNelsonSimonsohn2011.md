@@ -9,7 +9,7 @@ volume: "22"
 pages: "1359-1366"
 subjects: "Psychology(all)"
 doi: "10.1177/0956797611417632"
-link: "http://dx.doi.org/10.1177/0956797611417632"
+link: "https://dx.doi.org/10.1177/0956797611417632"
 citationkey: "SimmonsNelsonSimonsohn2011"
 updated: "20160315"
 ---

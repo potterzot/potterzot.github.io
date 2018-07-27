@@ -15,12 +15,12 @@ volume: "31"
 pages: "87-106"
 subjects: ['Economics and Econometrics']
 doi: "10.1257/jep.31.2.87"
-link: "http://dx.doi.org/10.1257/jep.31.2.87"
+link: "https://dx.doi.org/10.1257/jep.31.2.87"
 citationkey: "MullainathanSpiess2017"
 fetched: "20170620"
 ---
 
-**Citation:** Mullainathan, Sendhil, and Jann Spiess. "Machine Learning: An Applied Econometric Approach". *Journal of Economic Perspectives* 31, no. 2 (2017): 87-106. [[Paper link](http://dx.doi.org/10.1257/jep.31.2.87)]
+**Citation:** Mullainathan, Sendhil, and Jann Spiess. "Machine Learning: An Applied Econometric Approach". *Journal of Economic Perspectives* 31, no. 2 (2017): 87-106. [[Paper link](https://dx.doi.org/10.1257/jep.31.2.87)]
 
 #### Questions / References to check
 

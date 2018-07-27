@@ -9,7 +9,7 @@ volume: "485"
 pages: "229-232"
 subjects: "General"
 doi: "10.1038/nature11069"
-link: "http://dx.doi.org/10.1038/nature11069"
+link: "https://dx.doi.org/10.1038/nature11069"
 citationkey: "SeufertRamankuttyFoley2012"
 updated: "20160315"
 ---

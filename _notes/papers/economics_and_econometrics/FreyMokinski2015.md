@@ -9,7 +9,7 @@ volume: ""
 pages: "n/a-n/a"
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1002/jae.2483"
-link: "http://dx.doi.org/10.1002/jae.2483"
+link: "https://dx.doi.org/10.1002/jae.2483"
 citationkey: "FreyMokinski2015"
 updated: "20160315"
 ---

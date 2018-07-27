@@ -9,7 +9,7 @@ volume: "84"
 pages: "511-570"
 subjects: "Economics and Econometrics"
 doi: "10.3982/ecta11117"
-link: "http://dx.doi.org/10.3982/ECTA11117"
+link: "https://dx.doi.org/10.3982/ECTA11117"
 citationkey: "Garcia-Jimeno2016"
 updated: "20160322"
 ---

@@ -15,9 +15,9 @@ volume: "106"
 pages: "15594-15598"
 subjects: ['General']
 doi: "10.1073/pnas.0906865106"
-link: "http://dx.doi.org/10.1073/pnas.0906865106"
+link: "https://dx.doi.org/10.1073/pnas.0906865106"
 citationkey: "SchlenkerRoberts2009"
 fetched: "20160711"
 ---
 
-**Citation:** Schlenker, W., and M. J. Roberts. "Nonlinear temperature effects indicate severe damages to U.S. crop yields under climate change". *Proceedings of the National Academy of Sciences* 106, no. 37 (2009): 15594-15598. [[Paper link](http://dx.doi.org/10.1073/pnas.0906865106)]
+**Citation:** Schlenker, W., and M. J. Roberts. "Nonlinear temperature effects indicate severe damages to U.S. crop yields under climate change". *Proceedings of the National Academy of Sciences* 106, no. 37 (2009): 15594-15598. [[Paper link](https://dx.doi.org/10.1073/pnas.0906865106)]

@@ -17,7 +17,7 @@ With this as my ethical base and perspective, I commit to the following (in no p
 
 * I will not accept funding of any kind that seeks to obtain a foregone conclusion, period.
 
-* I will pursue transparency and open science [best practices](https://cos.io/our-communities/scientists-and-researchers/) in my research, and work hard to limit the possibility of statistical fallacies, whether due to the [garden of forking paths](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) or other pitfalls.
+* I will pursue transparency and open science [best practices](https://cos.io/our-communities/scientists-and-researchers/) in my research, and work hard to limit the possibility of statistical fallacies, whether due to the [garden of forking paths](https://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf) or other pitfalls.
 
 * I will make all of my research publicly available to the extent I'm allowed, whether the results are 'significant' or not. This includes making data, and code available when possible. I will work to make this possible every time.
 

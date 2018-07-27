@@ -10,7 +10,7 @@ volume: "84"
 pages: "753-771"
 subject: ['Economics and Econometrics', 'Social Sciences (miscellaneous)']
 doi: ""
-link: "http://www.jstor.org/stable/2118029"
+link: "https://www.jstor.org/stable/2118029"
 citationkey: "MendelsohnNordhausShaw1994"
 fetched: "20160615"
 ---

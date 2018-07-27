@@ -10,7 +10,7 @@ volume: "19"
 pages: "99-120"
 subject: ['Economics and Econometrics']
 doi: "10.1257/0895330054048678"
-link: "http://dx.doi.org/10.1257/0895330054048678"
+link: "https://dx.doi.org/10.1257/0895330054048678"
 citationkey: "LernerTirole2005"
 fetched: "20160701"
 ---

@@ -9,7 +9,7 @@ volume: "74"
 pages: "431-497"
 subjects: "Economics and Econometrics"
 doi: "10.1111/j.1468-0262.2006.00668.x"
-link: "http://dx.doi.org/10.1111/j.1468-0262.2006.00668.x"
+link: "https://dx.doi.org/10.1111/j.1468-0262.2006.00668.x"
 citationkey: "AtheyImbens2006a"
 updated: "20160311"
 ---

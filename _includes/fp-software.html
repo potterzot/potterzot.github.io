@@ -5,14 +5,14 @@
     {% if pgm.language == "r" %}
       <img src="https://travis-ci.org/potterzot/rnassqs.svg?branch=master">
       {% if pgm.package %}
-        <a href="http://cran.rstudio.com/web/packages/{{ pgm.package }}/index.html">
-          <img src="http://www.r-pkg.org/badges/version/{{ pgm.package }}">
+        <a href="https://cran.rstudio.com/web/packages/{{ pgm.package }}/index.html">
+          <img src="https://www.r-pkg.org/badges/version/{{ pgm.package }}">
         </a>
-        <a href="http://cran.rstudio.com/web/packages/{{ pgm.package }}/index.html">
-          <img src="http://cranlogs.r-pkg.org/badges/grand-total/{{ pgm.package }}">
+        <a href="https://cran.rstudio.com/web/packages/{{ pgm.package }}/index.html">
+          <img src="https://cranlogs.r-pkg.org/badges/grand-total/{{ pgm.package }}">
         </a>
       {% else %}
-        <img src="http://www.r-pkg.org/badges/version/{{ pgm.name }}?color=lightgrey">
+        <img src="https://www.r-pkg.org/badges/version/{{ pgm.name }}?color=lightgrey">
       {% endif %}
     {% elsif pgm.language == "python" %}
       <!--
@@ -39,4 +39,4 @@
   </p>
 {% endfor %}
 
-<p>You can find more on <a href="http://github.com/potterzot">my github repository</a>.</p>
+<p>You can find more on <a href="https://github.com/potterzot">my github repository</a>.</p>

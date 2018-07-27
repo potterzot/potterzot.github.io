@@ -9,7 +9,7 @@ volume: "8"
 pages: "e74979"
 subjects: "Biochemistry, Genetics and Molecular Biology(all), Agricultural and Biological Sciences(all), Medicine(all)"
 doi: "10.1371/journal.pone.0074979"
-link: "http://dx.doi.org/10.1371/journal.pone.0074979"
+link: "https://dx.doi.org/10.1371/journal.pone.0074979"
 citationkey: "KimETAL2013"
 updated: "20160315"
 ---

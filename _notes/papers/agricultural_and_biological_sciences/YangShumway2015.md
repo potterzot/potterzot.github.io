@@ -10,7 +10,7 @@ volume: "98"
 pages: "910-924"
 subject: ['Agricultural and Biological Sciences', 'Economics and Econometrics']
 doi: "10.1093/ajae/aav042"
-link: "http://dx.doi.org/10.1093/ajae/aav042"
+link: "https://dx.doi.org/10.1093/ajae/aav042"
 citationkey: "YangShumway2015"
 fetched: "20160423"
 ---

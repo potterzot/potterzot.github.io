@@ -10,7 +10,7 @@ volume: "98"
 pages: "74-91"
 subject: ['Agricultural and Biological Sciences', 'Economics and Econometrics']
 doi: "10.1093/ajae/aav049"
-link: "http://dx.doi.org/10.1093/ajae/aav049"
+link: "https://dx.doi.org/10.1093/ajae/aav049"
 citationkey: "CrespiETAL2015a"
 fetched: "20160420"
 ---

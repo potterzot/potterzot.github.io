@@ -9,7 +9,7 @@ volume: "98"
 pages: "113-133"
 subjects: ["Agricultural and Biological Sciences", "Economics and Econometrics"]
 doi: "10.1093/ajae/aav047"
-link: "http://dx.doi.org/10.1093/ajae/aav047"
+link: "https://dx.doi.org/10.1093/ajae/aav047"
 citationkey: "BonnetBouamra-Mechemache2015"
 ---
 

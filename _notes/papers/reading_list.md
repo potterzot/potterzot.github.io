@@ -3,7 +3,7 @@ layout: mathpost
 title: Reading List
 ---
 
-* [ ]  **Leamer1973**: (Economics and Econometrics) http://dx.doi.org/10.2307/1927962
+* [ ]  **Leamer1973**: (Economics and Econometrics) https://dx.doi.org/10.2307/1927962
 * [ ]  **Friedman1962**: Milton Friedman, Capitalism and Freedom
 * [ ]  **Heilbroner1953**: Robert Heilbroner, The Worldly Philosophers
 * [ ]  **Krugman1995**: Paul Krugman, Peddling Prosperity
@@ -13,27 +13,27 @@ title: Reading List
 * [ ]  **DixitNalebuff1993**: Avinash Dixit and Barry Nalebuff, Thinking Strategically
 * [ ]  **McMillan2003**: John McMillan, Reinventing the Bazaar
 * [ ]  **BreitHirsch**: William Breit and Barry T. Hirsch, Lives of the Laureates
-* [ ]  **Varian2014**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.28.2.3
-* [ ]  **YangShumway2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav042
-* [ ]  **BaiLi2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00519
-* [ ]  **BaltussenvandenAssemvanDolder2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00505
-* [ ]  **SanteramoShabnam2015**: (Food Science) http://dx.doi.org/10.1016/j.foodres.2015.04.014
-* [ ]  **Gelman2008**: (Statistics, Probability and Uncertainty) http://dx.doi.org/10.1198/000313008X330829
-* [ ]  **GreensteinPeitzValletti2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.30.2.127
-* [ ]  **Angrist2014**: (Economics and Econometrics) http://dx.doi.org/10.1016/j.labeco.2014.05.008
-* [ ]  **AiNorton2003**: (Economics and Econometrics) http://dx.doi.org/10.1016/s0165-1765(03)00032-6
-* [ ]  **SchlenkerRoberts2009**: (General) http://dx.doi.org/10.1073/pnas.0906865106
-* [ ]  **ChalfinETAL2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/aer.p20161029
-* [ ]  **LernerTirole2003**: (Economics and Econometrics) http://dx.doi.org/10.1111/1467-6451.00174
-* [ ]  **ParthaDavid1994**: (Management of Technology and Innovation) http://dx.doi.org/10.1016/0048-7333(94)01002-1
-* [ ]  **LernerTirole2005**: (Economics and Econometrics) http://dx.doi.org/10.1257/0895330054048678
-* [ ]  **Thaler2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/aer.106.7.1577
-* [ ]  **KleinbergETAL2015**: (Economics and Econometrics) http://dx.doi.org/10.1257/aer.p20151023
-* [ ]  **Iyer2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jel.54.2.395
-* [ ]  **GreensteinPeitzValletti2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.30.2.127
-* [ ]  **BertrandMorse2016**: (Economics and Econometrics) http://dx.doi.org/10.1162/REST_a_00613
-* [ ]  **AcquistiTaylorWagman2016**: (Economics and Econometrics) http://dx.doi.org/10.1257/jel.54.2.442
-* [ ]  **SchlenkerRoberts2009**: (General) http://dx.doi.org/10.1073/pnas.0906865106
+* [ ]  **Varian2014**: (Economics and Econometrics) https://dx.doi.org/10.1257/jep.28.2.3
+* [ ]  **YangShumway2015**: (Agricultural and Biological Sciences) https://dx.doi.org/10.1093/ajae/aav042
+* [ ]  **BaiLi2016**: (Economics and Econometrics) https://dx.doi.org/10.1162/REST_a_00519
+* [ ]  **BaltussenvandenAssemvanDolder2016**: (Economics and Econometrics) https://dx.doi.org/10.1162/REST_a_00505
+* [ ]  **SanteramoShabnam2015**: (Food Science) https://dx.doi.org/10.1016/j.foodres.2015.04.014
+* [ ]  **Gelman2008**: (Statistics, Probability and Uncertainty) https://dx.doi.org/10.1198/000313008X330829
+* [ ]  **GreensteinPeitzValletti2016**: (Economics and Econometrics) https://dx.doi.org/10.1257/jep.30.2.127
+* [ ]  **Angrist2014**: (Economics and Econometrics) https://dx.doi.org/10.1016/j.labeco.2014.05.008
+* [ ]  **AiNorton2003**: (Economics and Econometrics) https://dx.doi.org/10.1016/s0165-1765(03)00032-6
+* [ ]  **SchlenkerRoberts2009**: (General) https://dx.doi.org/10.1073/pnas.0906865106
+* [ ]  **ChalfinETAL2016**: (Economics and Econometrics) https://dx.doi.org/10.1257/aer.p20161029
+* [ ]  **LernerTirole2003**: (Economics and Econometrics) https://dx.doi.org/10.1111/1467-6451.00174
+* [ ]  **ParthaDavid1994**: (Management of Technology and Innovation) https://dx.doi.org/10.1016/0048-7333(94)01002-1
+* [ ]  **LernerTirole2005**: (Economics and Econometrics) https://dx.doi.org/10.1257/0895330054048678
+* [ ]  **Thaler2016**: (Economics and Econometrics) https://dx.doi.org/10.1257/aer.106.7.1577
+* [ ]  **KleinbergETAL2015**: (Economics and Econometrics) https://dx.doi.org/10.1257/aer.p20151023
+* [ ]  **Iyer2016**: (Economics and Econometrics) https://dx.doi.org/10.1257/jel.54.2.395
+* [ ]  **GreensteinPeitzValletti2016**: (Economics and Econometrics) https://dx.doi.org/10.1257/jep.30.2.127
+* [ ]  **BertrandMorse2016**: (Economics and Econometrics) https://dx.doi.org/10.1162/REST_a_00613
+* [ ]  **AcquistiTaylorWagman2016**: (Economics and Econometrics) https://dx.doi.org/10.1257/jel.54.2.442
+* [ ]  **SchlenkerRoberts2009**: (General) https://dx.doi.org/10.1073/pnas.0906865106
 * [ ]  Keshav2016
 * [ ]  Lantz2013 (machine learning in R)
 * [ ]  ChernozhukovXXXX
@@ -65,18 +65,18 @@ title: Reading List
 * [ ]  William Vickrey, 1961. "Counterspeculation, Auctions, And Competitive Sealed Tenders," Journal of Finance
 * [ ]  Ronald Coase, 1937. "The Nature of the Firm", Economica
 * [ ]  Robert Solow, 1984. "Mr. Hicks and the Classics", Oxford Economic Papers
-* [ ]  **BabcockETAL1996**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1243852
-* [ ]  **Wu2000**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/0002-9092.00096
-* [ ]  **Wu2005**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1111/j.0002-9092.2005.00716.x
-* [ ]  **WuLin2009**: (Economics and Econometrics) http://dx.doi.org/10.3368/le.86.1.1
-* [ ]  **BursztynEgorovFiorin2017**: (Unsorted) http://dx.doi.org/10.3386/w23415
-* [ ]  **MiaoKhannaHuang2015**: (Agricultural and Biological Sciences) http://dx.doi.org/10.1093/ajae/aav025
-* [ ]  **Kahn2016**: (Economics and Econometrics) http://dx.doi.org/10.1093/reep/rev023
-* [ ]  **CapozzaHelsley1990**: (Economics and Econometrics) http://dx.doi.org/10.1016/0094-1190(90)90050-W
-* [ ]  **Latacz-LohmannderHamsvoort1997**: (Agricultural and Biological Sciences) http://dx.doi.org/10.2307/1244139
-* [X]  **Leamer2010**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.24.2.31
-* [X]  **MullainathanSpiess2017**: (Economics and Econometrics) http://dx.doi.org/10.1257/jep.31.2.87
-* [X]  **Rekdal2014**: (History and Philosophy of Science) http://dx.doi.org/10.1177/0306312714535679
+* [ ]  **BabcockETAL1996**: (Agricultural and Biological Sciences) https://dx.doi.org/10.2307/1243852
+* [ ]  **Wu2000**: (Agricultural and Biological Sciences) https://dx.doi.org/10.1111/0002-9092.00096
+* [ ]  **Wu2005**: (Agricultural and Biological Sciences) https://dx.doi.org/10.1111/j.0002-9092.2005.00716.x
+* [ ]  **WuLin2009**: (Economics and Econometrics) https://dx.doi.org/10.3368/le.86.1.1
+* [ ]  **BursztynEgorovFiorin2017**: (Unsorted) https://dx.doi.org/10.3386/w23415
+* [ ]  **MiaoKhannaHuang2015**: (Agricultural and Biological Sciences) https://dx.doi.org/10.1093/ajae/aav025
+* [ ]  **Kahn2016**: (Economics and Econometrics) https://dx.doi.org/10.1093/reep/rev023
+* [ ]  **CapozzaHelsley1990**: (Economics and Econometrics) https://dx.doi.org/10.1016/0094-1190(90)90050-W
+* [ ]  **Latacz-LohmannderHamsvoort1997**: (Agricultural and Biological Sciences) https://dx.doi.org/10.2307/1244139
+* [X]  **Leamer2010**: (Economics and Econometrics) https://dx.doi.org/10.1257/jep.24.2.31
+* [X]  **MullainathanSpiess2017**: (Economics and Econometrics) https://dx.doi.org/10.1257/jep.31.2.87
+* [X]  **Rekdal2014**: (History and Philosophy of Science) https://dx.doi.org/10.1177/0306312714535679
 * [X]  **LevittDubner2009**: Steven Levitt and Stephen Dubner, Freakonomics
 * [X]  **McCloskey2000**: Economical Writing
 * [X]  **McCloskey2000**: How to be Human*: *Though an economist

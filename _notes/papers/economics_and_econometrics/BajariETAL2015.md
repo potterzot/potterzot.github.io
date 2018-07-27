@@ -9,7 +9,7 @@ volume: "105"
 pages: "481-485"
 subjects: "Economics and Econometrics"
 doi: "10.1257/aer.p20151021"
-link: "http://dx.doi.org/10.1257/aer.p20151021"
+link: "https://dx.doi.org/10.1257/aer.p20151021"
 citationkey: "BajariETAL2015"
 updated: "20160311"
 ---

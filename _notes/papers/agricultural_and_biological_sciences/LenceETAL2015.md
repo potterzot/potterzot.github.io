@@ -9,7 +9,7 @@ volume: "43"
 pages: "1-29"
 subjects: ["Agricultural and Biological Sciences", "Economics and Econometrics"]
 doi: "10.1093/erae/jbv007"
-link: "http://dx.doi.org/10.1093/erae/jbv007"
+link: "https://dx.doi.org/10.1093/erae/jbv007"
 citationkey: "LenceETAL2015"
 ---
 

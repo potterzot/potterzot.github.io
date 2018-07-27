@@ -9,7 +9,7 @@ volume: "98"
 pages: "41-53"
 subjects: "Agriculture and Biological Sciences, Economics and Econometrics"
 doi: "10.1093/ajae/aav057"
-link: "http://dx.doi.org/10.1093/ajae/aav057"
+link: "https://dx.doi.org/10.1093/ajae/aav057"
 citationkey: "ZhuLopezLiu2015"
 updated: "20160315"
 ---

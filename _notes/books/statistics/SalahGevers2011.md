@@ -10,7 +10,7 @@ volume: ""
 pages: ""
 subjects: "Computer Science"
 doi: "10.1007/978-0-85729-994-9"
-link: "http://dx.doi.org/10.1007/978-0-85729-994-9"
+link: "https://dx.doi.org/10.1007/978-0-85729-994-9"
 citationkey: "SalahGevers2011"
 updated: "20160315"
 ---

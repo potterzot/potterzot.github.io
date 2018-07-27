@@ -9,7 +9,7 @@ volume: "47"
 pages: "47-57"
 subjects: "Agronomy and Crop Science, Economics and Econometrics"
 doi: "10.1111/agec.12208"
-link: "http://dx.doi.org/10.1111/agec.12208"
+link: "https://dx.doi.org/10.1111/agec.12208"
 citationkey: "LewisGrebitusNayga2015"
 updated: "20160315"
 ---

@@ -9,7 +9,7 @@ volume: "25"
 pages: "642-675"
 subjects: "Business and International Management"
 doi: "10.1016/j.ijforecast.2009.08.007"
-link: "http://dx.doi.org/10.1016/j.ijforecast.2009.08.007"
+link: "https://dx.doi.org/10.1016/j.ijforecast.2009.08.007"
 citationkey: "PesaranSchuermannSmith2009"
 updated: "20160303"
 ---

@@ -9,7 +9,7 @@ volume: "19"
 pages: "259-270"
 subjects: "Management Science and Operations Research, Hardware and Architecture, Computer Science Applications"
 doi: "10.1007/s00779-014-0820-1"
-link: "http://dx.doi.org/10.1007/s00779-014-0820-1"
+link: "https://dx.doi.org/10.1007/s00779-014-0820-1"
 citationkey: "OrdonezdeToledoSanchis2014"
 updated: "20160315"
 ---

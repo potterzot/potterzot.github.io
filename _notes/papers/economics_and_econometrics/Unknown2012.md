@@ -9,7 +9,7 @@ volume: "80"
 pages: "2369-2429"
 subjects: "Economics and Econometrics"
 doi: "10.3982/ecta9626"
-link: "http://dx.doi.org/10.3982/ECTA9626"
+link: "https://dx.doi.org/10.3982/ECTA9626"
 citationkey: "BelloniChenChernozhukov2012"
 updated: "20160303"
 ---

@@ -9,7 +9,7 @@ volume: "30"
 pages: "46-73"
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1002/jae.2315"
-link: "http://dx.doi.org/10.1002/jae.2315"
+link: "https://dx.doi.org/10.1002/jae.2315"
 citationkey: "CarrieroClarkMarcellino2013"
 updated: "20160315"
 ---

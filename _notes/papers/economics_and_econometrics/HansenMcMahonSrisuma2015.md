@@ -9,7 +9,7 @@ volume: ""
 pages: "n/a-n/a"
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1002/jae.2446"
-link: "http://dx.doi.org/10.1002/jae.2446"
+link: "https://dx.doi.org/10.1002/jae.2446"
 citationkey: "HansenMcMahonSrisuma2015"
 updated: "20160315"
 ---

@@ -9,7 +9,7 @@ volume: "47"
 pages: "15-31"
 subjects: "Agronomy and Crop Science, Economics and Econometrics"
 doi: "10.1111/agec.12206"
-link: "http://dx.doi.org/10.1111/agec.12206"
+link: "https://dx.doi.org/10.1111/agec.12206"
 citationkey: "JinHuffman2015"
 updated: "20160315"
 ---

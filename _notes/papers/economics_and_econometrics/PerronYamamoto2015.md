@@ -9,7 +9,7 @@ volume: "30"
 pages: "119-144"
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1002/jae.2320"
-link: "http://dx.doi.org/10.1002/jae.2320"
+link: "https://dx.doi.org/10.1002/jae.2320"
 citationkey: "PerronYamamoto2015"
 updated: "20160315"
 ---

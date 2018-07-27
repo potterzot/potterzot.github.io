@@ -10,7 +10,7 @@ volume: "98"
 pages: "298-309"
 subject: ['Economics and Econometrics', 'Social Sciences (miscellaneous)']
 doi: "10.1162/rest_a_00519"
-link: "http://dx.doi.org/10.1162/REST_a_00519"
+link: "https://dx.doi.org/10.1162/REST_a_00519"
 citationkey: "BaiLi2016"
 fetched: "20160425"
 ---

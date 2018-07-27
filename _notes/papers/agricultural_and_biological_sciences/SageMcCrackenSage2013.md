@@ -9,7 +9,7 @@ volume: "95"
 pages: "1273-1279"
 subjects: "Agriculture and Biological Sciences, Economics and Econometrics"
 doi: "10.1093/ajae/aat031"
-link: "http://dx.doi.org/10.1093/ajae/aat031"
+link: "https://dx.doi.org/10.1093/ajae/aat031"
 citationkey: "SageMcCrackenSage2013"
 updated: "20160315"
 ---

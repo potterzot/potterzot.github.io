@@ -9,7 +9,7 @@ volume: "30"
 pages: "1-5"
 subjects: "Economics and Econometrics, Management, Monitoring, Policy and Law"
 doi: "10.1016/j.infoecopol.2014.10.003"
-link: "http://dx.doi.org/10.1016/j.infoecopol.2014.10.003"
+link: "https://dx.doi.org/10.1016/j.infoecopol.2014.10.003"
 citationkey: "McCluskeySwinnenVandemoortele2015"
 updated: "20160315"
 ---

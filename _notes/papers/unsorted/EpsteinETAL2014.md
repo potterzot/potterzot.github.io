@@ -9,7 +9,7 @@ volume: ""
 pages: ""
 subjects: "Unsorted"
 doi: "10.1145/2598510.2598558"
-link: "http://dx.doi.org/10.1145/2598510.2598558"
+link: "https://dx.doi.org/10.1145/2598510.2598558"
 citationkey: "EpsteinETAL2014"
 updated: "20160315"
 ---

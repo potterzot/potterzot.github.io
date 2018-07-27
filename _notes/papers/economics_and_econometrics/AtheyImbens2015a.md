@@ -9,7 +9,7 @@ volume: ""
 pages: ""
 subjects: "Economics and Econometrics"
 doi: "abs/1504.01132"
-link: "http://arxiv.org/abs/1504.01132"
+link: "https://arxiv.org/abs/1504.01132"
 citationkey: "AtheyImbens2015a"
 updated: "20160311"
 ---

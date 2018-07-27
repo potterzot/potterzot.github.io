@@ -17,9 +17,9 @@ volume: ""
 pages: ""
 subjects: ['Unsorted']
 doi: "10.3386/w23415"
-link: "http://dx.doi.org/10.3386/w23415"
+link: "https://dx.doi.org/10.3386/w23415"
 citationkey: "BursztynEgorovFiorin2017"
 fetched: "20170621"
 ---
 
-**Citation:** Bursztyn, Leonardo, Georgy Egorov, and Stefano Fiorin. "From Extreme to Mainstream: How Social Norms Unravel". *Unknown* (2017). [[Paper link](http://dx.doi.org/10.3386/w23415)]
+**Citation:** Bursztyn, Leonardo, Georgy Egorov, and Stefano Fiorin. "From Extreme to Mainstream: How Social Norms Unravel". *Unknown* (2017). [[Paper link](https://dx.doi.org/10.3386/w23415)]

@@ -9,7 +9,7 @@ volume: "15"
 pages: "438-448"
 subjects: "Medicine(all)"
 doi: "10.1109/titb.2011.2113352"
-link: "http://dx.doi.org/10.1109/TITB.2011.2113352"
+link: "https://dx.doi.org/10.1109/TITB.2011.2113352"
 citationkey: "ShinLeePark2011"
 updated: "20160315"
 ---

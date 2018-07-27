@@ -10,7 +10,7 @@ volume: ""
 pages: ""
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1002/jae.2432"
-link: "http://arxiv.org/pdf/1308.5390v1.pdf"
+link: "https://arxiv.org/pdf/1308.5390v1.pdf"
 citationkey: "FengYu2013"
 updated: "20160303"
 ---

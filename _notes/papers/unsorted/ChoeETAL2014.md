@@ -9,7 +9,7 @@ volume: ""
 pages: ""
 subjects: "Unsorted"
 doi: "10.1145/2556288.2557372"
-link: "http://dx.doi.org/10.1145/2556288.2557372"
+link: "https://dx.doi.org/10.1145/2556288.2557372"
 citationkey: "ChoeETAL2014"
 updated: "20160315"
 ---

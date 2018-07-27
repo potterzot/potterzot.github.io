@@ -9,7 +9,7 @@ volume: ""
 pages: ""
 subjects: "Economics and Econometrics, Social Sciences (miscellaneous)"
 doi: "10.1162/rest_a_00607"
-link: "http://dx.doi.org/10.1162/REST_a_00607"
+link: "https://dx.doi.org/10.1162/REST_a_00607"
 citationkey: "FeenbergETAL2016"
 updated: "20160402"
 ---

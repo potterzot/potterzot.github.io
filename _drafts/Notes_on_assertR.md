@@ -5,7 +5,7 @@ title: Notes on assertR by Tony Fischetti
 
 **[assertR](https://github.com/tonyfischetti/assertr): Data validation to avoid late-in-pipeline errors.**
 
-[presentation slides](http://statethatiamin.onlythisrose.com/assertr-presentation.html)
+[presentation slides](https://statethatiamin.onlythisrose.com/assertr-presentation.html)
 [presentation video](https://vimeo.com/channels/rocommunitycalls)
 
 **Other packages similar in scope:**

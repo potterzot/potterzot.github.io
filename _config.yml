@@ -1,5 +1,5 @@
 # Site settings
-url: http://potterzot.com
+url: https://potterzot.com
 title: Nicholas Potter
 email: potterzot@gmail.com
 author: Nicholas Potter
@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: potterzot
 github_username:  potterzot
-subscribe_rss: http://potterzot.com/atom.xml
+subscribe_rss: https://potterzot.com/atom.xml
 
 # Where things are
 root: /

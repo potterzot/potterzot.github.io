@@ -15,9 +15,9 @@ volume: "55"
 pages: "371"
 subjects: ['Economics and Econometrics', 'Social Sciences (miscellaneous)']
 doi: "10.2307/1927962"
-link: "http://dx.doi.org/10.2307/1927962"
+link: "https://dx.doi.org/10.2307/1927962"
 citationkey: "Leamer1973"
 fetched: "20170620"
 ---
 
-**Citation:** Leamer, Edward E. "Multicollinearity: A Bayesian Interpretation". *The Review of Economics and Statistics* 55, no. 3 (1973): 371. [[Paper link](http://dx.doi.org/10.2307/1927962)]
+**Citation:** Leamer, Edward E. "Multicollinearity: A Bayesian Interpretation". *The Review of Economics and Statistics* 55, no. 3 (1973): 371. [[Paper link](https://dx.doi.org/10.2307/1927962)]

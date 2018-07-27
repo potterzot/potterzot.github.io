@@ -9,7 +9,7 @@ volume: "84"
 pages: "627-676"
 subjects: "Economics and Econometrics"
 doi: "10.3982/ecta10740"
-link: "http://dx.doi.org/10.3982/ECTA10740"
+link: "https://dx.doi.org/10.3982/ECTA10740"
 citationkey: "ArieliYoung2016"
 updated: "20160322"
 ---

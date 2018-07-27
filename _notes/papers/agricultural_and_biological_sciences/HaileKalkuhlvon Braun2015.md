@@ -9,7 +9,7 @@ volume: "98"
 pages: "172-190"
 subjects: "Agriculture and Biological Sciences, Economics and Econometrics"
 doi: "10.1093/ajae/aav013"
-link: "http://dx.doi.org/10.1093/ajae/aav013"
+link: "https://dx.doi.org/10.1093/ajae/aav013"
 citationkey: "HaileKalkuhlvon Braun2015"
 updated: "20160315"
 ---

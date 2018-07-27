@@ -9,7 +9,7 @@ volume: "45"
 pages: 
 subjects: 
 doi: "10.18637/jss.v045.i02"
-link: "http://dx.doi.org/10.18637/jss.v045.i02"
+link: "https://dx.doi.org/10.18637/jss.v045.i02"
 citationkey: "SuETAL2011"
 updated: "20160302"
 ---

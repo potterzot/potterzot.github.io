@@ -10,7 +10,7 @@ volume: "106"
 pages: "124-127"
 subject: ['Economics and Econometrics']
 doi: "10.1257/aer.p20161029"
-link: "http://dx.doi.org/10.1257/aer.p20161029"
+link: "https://dx.doi.org/10.1257/aer.p20161029"
 citationkey: "ChalfinETAL2016"
 fetched: "20160628"
 ---

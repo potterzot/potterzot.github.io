@@ -9,7 +9,7 @@ volume: ""
 pages: ""
 subjects: "Economics and Econometrics"
 doi: ""
-link: "http://www.nasonline.org/programs/sackler-colloquia/documents/athey.pdf"
+link: "https://www.nasonline.org/programs/sackler-colloquia/documents/athey.pdf"
 citationkey: "AtheyImbensXXXX"
 updated: "20160311"
 ---

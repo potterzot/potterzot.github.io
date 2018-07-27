@@ -9,7 +9,7 @@ volume: "98"
 pages: "19-40"
 subjects: "Agriculture and Biological Sciences, Economics and Econometrics"
 doi: "10.1093/ajae/aav044"
-link: "http://dx.doi.org/10.1093/ajae/aav044"
+link: "https://dx.doi.org/10.1093/ajae/aav044"
 citationkey: "FitzpatrickGreenhalgh-StanleyVer Ploeg2015"
 updated: "20160315"
 ---

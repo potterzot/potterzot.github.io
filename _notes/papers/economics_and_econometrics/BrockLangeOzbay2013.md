@@ -9,7 +9,7 @@ volume: "103"
 pages: "415-437"
 subjects: "Economics and Econometrics"
 doi: "10.1257/aer.103.1.415"
-link: "http://dx.doi.org/10.1257/aer.103.1.415"
+link: "https://dx.doi.org/10.1257/aer.103.1.415"
 citationkey: "BrockLangeOzbay2013"
 updated: "20160302"
 ---

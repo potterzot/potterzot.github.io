@@ -9,7 +9,7 @@ volume: "26"
 pages: "398-422"
 subjects: "Statistics, Probability and Uncertainty, Economics and Econometrics, Statistics and Probability, Social Sciences (miscellaneous)"
 doi: "10.1198/073500108000000024"
-link: "http://dx.doi.org/10.1198/073500108000000024"
+link: "https://dx.doi.org/10.1198/073500108000000024"
 citationkey: "HansenHausmanNewey2008"
 updated: "20160303"
 ---

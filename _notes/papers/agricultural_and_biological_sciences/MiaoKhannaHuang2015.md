@@ -15,9 +15,9 @@ volume: "98"
 pages: "191-211"
 subjects: ['Agricultural and Biological Sciences', 'Economics and Econometrics']
 doi: "10.1093/ajae/aav025"
-link: "http://dx.doi.org/10.1093/ajae/aav025"
+link: "https://dx.doi.org/10.1093/ajae/aav025"
 citationkey: "MiaoKhannaHuang2015"
 fetched: "20170626"
 ---
 
-**Citation:** Miao, Ruiqing, Madhu Khanna, and Haixiao Huang. "Responsiveness of Crop Yield and Acreage to Prices and Climate". *American Journal of Agricultural Economics* 98, no. 1 (2015): 191-211. [[Paper link](http://dx.doi.org/10.1093/ajae/aav025)]
+**Citation:** Miao, Ruiqing, Madhu Khanna, and Haixiao Huang. "Responsiveness of Crop Yield and Acreage to Prices and Climate". *American Journal of Agricultural Economics* 98, no. 1 (2015): 191-211. [[Paper link](https://dx.doi.org/10.1093/ajae/aav025)]

@@ -9,7 +9,7 @@ volume: "19"
 pages: "287-301"
 subjects: "Management Science and Operations Research, Hardware and Architecture, Computer Science Applications"
 doi: "10.1007/s00779-014-0824-x"
-link: "http://dx.doi.org/10.1007/s00779-014-0824-x"
+link: "https://dx.doi.org/10.1007/s00779-014-0824-x"
 citationkey: "WanOGradyOHare2014"
 updated: "20160315"
 ---

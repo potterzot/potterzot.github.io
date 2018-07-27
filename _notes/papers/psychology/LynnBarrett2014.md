@@ -9,7 +9,7 @@ volume: "25"
 pages: "1663-1673"
 subjects: "Psychology(all)"
 doi: "10.1177/0956797614541991"
-link: "http://dx.doi.org/10.1177/0956797614541991"
+link: "https://dx.doi.org/10.1177/0956797614541991"
 citationkey: "LynnBarrett2014"
 updated: "20160315"
 ---

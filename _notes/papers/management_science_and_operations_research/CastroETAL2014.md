@@ -9,7 +9,7 @@ volume: "19"
 pages: "379-391"
 subjects: "Management Science and Operations Research, Hardware and Architecture, Computer Science Applications"
 doi: "10.1007/s00779-014-0825-9"
-link: "http://dx.doi.org/10.1007/s00779-014-0825-9"
+link: "https://dx.doi.org/10.1007/s00779-014-0825-9"
 citationkey: "CastroETAL2014"
 updated: "20160315"
 ---

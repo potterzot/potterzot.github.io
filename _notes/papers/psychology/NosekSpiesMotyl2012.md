@@ -9,7 +9,7 @@ volume: "7"
 pages: "615-631"
 subjects: "Psychology(all)"
 doi: "10.1177/1745691612459058"
-link: "http://dx.doi.org/10.1177/1745691612459058"
+link: "https://dx.doi.org/10.1177/1745691612459058"
 citationkey: "NosekSpiesMotyl2012"
 updated: "20160315"
 ---

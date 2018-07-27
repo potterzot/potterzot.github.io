@@ -9,7 +9,7 @@ volume: "106"
 pages: "525-562"
 subjects: "Economics and Econometrics"
 doi: "10.1257/aer.20130626"
-link: "http://dx.doi.org/10.1257/aer.20130626"
+link: "https://dx.doi.org/10.1257/aer.20130626"
 citationkey: "ArcidiaconoAucejoHotz2016"
 updated: "20160302"
 ---

@@ -10,7 +10,7 @@ volume: "62"
 pages: "202-205"
 subject: ['Statistics, Probability and Uncertainty', 'Statistics and Probability', 'Mathematics(all)']
 doi: "10.1198/000313008x330829"
-link: "http://dx.doi.org/10.1198/000313008X330829"
+link: "https://dx.doi.org/10.1198/000313008X330829"
 citationkey: "Gelman2008"
 fetched: "20160428"
 ---

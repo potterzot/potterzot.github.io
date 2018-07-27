@@ -4,7 +4,7 @@ https://keybase.io/potterzot
 
 I hereby claim:
 
-  * I am an admin of http://potterzot.com
+  * I am an admin of https://potterzot.com
   * I am potterzot (https://keybase.io/potterzot) on keybase.
   * I have a public key with fingerprint 9C73 3AAA 6D99 86F1 F8F4  601D 298F 8713 1BE6 5941
 
@@ -30,7 +30,7 @@ To do so, I am signing this object:
         },
         "service": {
             "hostname": "potterzot.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1

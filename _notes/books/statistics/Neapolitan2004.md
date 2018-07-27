@@ -8,7 +8,7 @@ issue: ""
 volume: ""
 pages: ""
 subjects: ["Statistics"]
-link: "http://www.cs.technion.ac.il/~dang/books/Learning%20Bayesian%20Networks%28Neapolitan,%20Richard%29.pdf"
+link: "https://www.cs.technion.ac.il/~dang/books/Learning%20Bayesian%20Networks%28Neapolitan,%20Richard%29.pdf"
 citationkey: "Neapolitan2004"
 updated: "20160303"
 ---

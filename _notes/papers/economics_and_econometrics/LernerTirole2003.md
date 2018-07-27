@@ -10,7 +10,7 @@ volume: "50"
 pages: "197-234"
 subject: ['Economics and Econometrics', 'Accounting', 'Business, Management and Accounting(all)']
 doi: "10.1111/1467-6451.00174"
-link: "http://dx.doi.org/10.1111/1467-6451.00174"
+link: "https://dx.doi.org/10.1111/1467-6451.00174"
 citationkey: "LernerTirole2003"
 fetched: "20160701"
 ---

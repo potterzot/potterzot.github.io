@@ -3,11 +3,11 @@ layout: null
 permalink: .htaccess
 ---
 
-Redirect 301 /posts.atom.xml http://potterzot.com/atom.xml
+Redirect 301 /posts.atom.xml https://potterzot.com/atom.xml
 
-Redirect 302 /research/index.html http://potterzot.com/files/potter_nicholas-cv.pdf
-Redirect 302 /cv/index.html http://potterzot.com/files/potter_nicholas-cv.pdf
-Redirect 302 /cv/ http://potterzot.com/files/potter_nicholas-cv.pdf
+Redirect 302 /research/index.html https://potterzot.com/files/potter_nicholas-cv.pdf
+Redirect 302 /cv/index.html https://potterzot.com/files/potter_nicholas-cv.pdf
+Redirect 302 /cv/ https://potterzot.com/files/potter_nicholas-cv.pdf
 
 ErrorDocument 404 /404.html
 

@@ -15,12 +15,12 @@ volume: "24"
 pages: "31-46"
 subjects: ['Economics and Econometrics']
 doi: "10.1257/jep.24.2.31"
-link: "http://dx.doi.org/10.1257/jep.24.2.31"
+link: "https://dx.doi.org/10.1257/jep.24.2.31"
 citationkey: "Leamer2010"
 fetched: "20170619"
 ---
 
-**Citation:** Leamer, Edward E. "Tantalus on the Road to Asymptopia". *Journal of Economic Perspectives* 24, no. 2 (2010): 31-46. [[Paper link](http://dx.doi.org/10.1257/jep.24.2.31)]
+**Citation:** Leamer, Edward E. "Tantalus on the Road to Asymptopia". *Journal of Economic Perspectives* 24, no. 2 (2010): 31-46. [[Paper link](https://dx.doi.org/10.1257/jep.24.2.31)]
 
 #### Questions
 * Look up Deacon 2008
