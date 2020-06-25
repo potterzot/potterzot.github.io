@@ -4,64 +4,49 @@ https://keybase.io/potterzot
 
 I hereby claim:
 
-  * I am an admin of https://potterzot.com
+  * I am an admin of https://econpotter.com
   * I am potterzot (https://keybase.io/potterzot) on keybase.
-  * I have a public key with fingerprint 9C73 3AAA 6D99 86F1 F8F4  601D 298F 8713 1BE6 5941
+  * I have a public key ASCo-KxPJJSMY3Ag3uDqqS6N_LKD6fdbZ_pKMfAT1V1qVAo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.2"
-        },
-        "key": {
-            "fingerprint": "9c733aaa6d9986f1f8f4601d298f87131be65941",
-            "host": "keybase.io",
-            "key_id": "298F87131BE65941",
-            "uid": "8e7020c05890c697a4a26dda43eb7e00",
-            "username": "potterzot"
-        },
-        "merkle_root": {
-            "ctime": 1440685924,
-            "hash": "11469ce2cb18ea70dc3e730bea541158d7042c3e50c96d2c75ad8066b8538096659b73f7b27cfb0bad7e42a72222920ce902253bf19f707487de2f460b7f1c7c",
-            "seqno": 283028
-        },
-        "service": {
-            "hostname": "potterzot.com",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0111644f520eed5f54cb3e9a86de46d43e380df52a63df02270cb2f0caef8c2112c00a",
+      "host": "keybase.io",
+      "kid": "0120a8f8ac4f24948c637020dee0eaa92e8dfcb283e9f75b67fa4a31f013d55d6a540a",
+      "uid": "8e7020c05890c697a4a26dda43eb7e00",
+      "username": "potterzot"
     },
-    "ctime": 1440686449,
-    "expire_in": 157680000,
-    "prev": "48704e6c0038d38044b57450588ff0cac073f860c75bb1e24df16bf43a744fec",
-    "seqno": 13,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1593097091,
+      "hash": "786c8c61485a3bd29af9602e680d34bee9cee0236a714c2c1d049d78d9970bcdb54db639918e64fa8fc9b65e4b483dac0301a1ceec0c6ffef8aacbb7e097ad30",
+      "hash_meta": "0ad7f78ce9d61d6e48f631dc1c990c6e358e819164ae10fe2bbce5f2c5016a96",
+      "seqno": 16774322
+    },
+    "service": {
+      "entropy": "16B6BVfQl7rBvVtZ79uAVIWC",
+      "hostname": "econpotter.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1593097100,
+  "expire_in": 504576000,
+  "prev": "bf79a235b441910f957e064dace36d8835eba127e1ac889ab18f784941374522",
+  "seqno": 41,
+  "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: GnuPG v2
-
-owFdkjtoFUEUhtd3lAgJt7CwidsF4mVmdnYeFxQjPkobRW1ynceZZJN7d292NzEx
-BLGKYKEICnZiaSGKptdGEBsrK9FOjdpYG4gzlwSSTLU7851//v+ceXB0XzQwPHp/
-pXH8+/XxPR/XdHTl24nZpVgXdjFuLcWmk0Feh69cdSFuxTOwqFUFzawYyQsLzelq
-ZJMZi+ehrLIi9xRq8iaJl8cCHopdlk9C2SuzoBVLw5NEKcWslII57ISjDGFLpHCC
-4wRrYKmk2EtOFVW949a4r9nOrN/1/IU+f/b8Fj/XPxDAEUEGpUIiwyRXVBFmraIJ
-aA4IBbCCcjNSr6hrKG8VdTDchXKmA+2yKPqpTZ0FBlOKmEglod6SqqZ8FcaUSQPE
-aCxAcWRNAjxBGlRKMU6F5YgSv5ciI5klhqfKCsSYFmkikGTeseaJ45pw4zTSynKg
-RHHil/TmQSJC0kQ7LB1HnApugYQ+ae6w4cZnqGA2L+IWEQkiYjn8l/OZgeA79G13
-vKYpur6qVxZ1YYqOP5qq614rpK4XewG9CS91e1OlrbPc+rFtnyv26I6OMErlWAwL
-vayEdhaIlDOB/Ar3wLzX9MYRBWYQSoT1ySnVKaepn41wDhllkO+CYMg3SGsMhFqH
-mXY0UZxSB9ty4sQbVZNes8omc1XPlRAv353YHw0PRAcP7A0PNzpyeGjrNa+/iTYu
-4h+fT0fTq5d+jv67dqbx9M/tq4077wZp1Lj89vGptUfRxsSX5+cGf59c/yBWXg99
-PfS+e+OXe/j33qcnLxaejR97tfof
-=S+ra
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqPisTySUjGNwIN7g6qkujfyyg+n3W2f6SjHwE9VdalQKp3BheWxvYWTESpcCKcQgv3miNbRBkQ+VfgZNrONtiDXroSfhrIiasY94SUE3RSLEINk5JWZwnmBImLOcSB61rKOo4zolDMtewraQ+4xDT/4PAgHCo3NpZ8RAMfvBxU/I8zK9VszDWij+fx2EspMS3Y1JGco2CQfDAnkWGglR05Zq3cp+eZ77uoHh7mGcM55GbAHo+6p1GE+7BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKLRQM3JqqEM+B7FMF29gZ7A4TKZaCY8HlsHPa2710Tfo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -69,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/potterzot
 
 ==================================================================
-
