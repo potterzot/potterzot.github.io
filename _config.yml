@@ -1,135 +1,101 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-url: https://potterzot.com
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang: en-US
 title: Nicholas Potter
-email: potterzot@gmail.com
+subtitle: PhD Candidate in Economics
+description: >- # this means to ignore newlines until "baseurl:"
+  water and natrual resource economist
 author: Nicholas Potter
-description: > # this means to ignore newlines until "baseurl:"
-  Statistical programmer and economics PhD student.<br/>
-  Distance runner and fiction writer. RPCV Guinea and Niger. 
-  
-baseurl: "" # the subpath of your site, e.g. /blog/
-twitter_username: potterzot
-github_username:  potterzot
-subscribe_rss: https://potterzot.com/atom.xml
+email: potter.nicholas@gmail.com
+avatar: assets/images/avatar.jpg
+baseurl: # the optional subpath of your site, e.g. "/blog"
+url: https://econpotter.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+cv: /files/Potter-CV.pdf
 
-# Where things are
-root: /
-permalink: /blog/:title/
-#source:       .
-destination:  ./public
-#plugins_dir:  ./_plugins
-#layouts_dir:  ./_layouts
-#data_dir:     ./_data
-#includes_dir: ./_includes
-#collections:  null
+# Social settings
+# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
+twitter_url: https://www.twitter.com/econpotter
+facebook_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+cv_url: /files/Potter-CV.pdf
+jmp_url: /files/PotterBradyRajagopalan-WP.pdf
+github_url: https://www.github.com/potterzot
+stackoverflow_url:
+pinterest_url:
+slack_url:
+dribbble_url:
 
-# Plugins
-#whitelist: []
-gems: []
+# Google Analytics Tracking ID goes here:
+google_analytics:
 
-# # Handling Reading
-#safe:         false
-include:      [".htaccess"]
-#exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-excerpt_separator: <!--more-->
+# The following settings are NECESSARY for the Prologue theme to run:
+#theme: jekyll-theme-prologue
+collections: [sections]
 
-# Filtering Content
-#show_drafts: null
-#limit_posts: 0
-#future:      false
-#unpublished: false
-
-# Conversion
 # Build settings
-lsi: false
-highlighter: rouge
-# excerpt_separator: "\n\n"
-# incremental: false
-
-# Markdown
 markdown: kramdown
-#markdown: redcarpet
-#markdown: pandoc
-#
+#`theme: jekyll-theme-basically-basic
+plugins: # previsously gems
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
+include:
+  - .htaccess
+  - _pages
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
 
-figures:
-  dir: /figures
-  enumerate: true
-  analytics: true
-
-collections:
-  runs:
-    output: true
-    permalink: /running/:path/
-  stories:
-    output: true
-    permalink: /stories/:path/
-  poems:
-    output: true
-    permalink: /poetry/:path/
-  notes:
-    output: true
-    permalink: /notes/:path/
-    layout: mathpost
-  research:
-    output: true
-    permalink: /research/:path/
-    layout: mathpage
-  projects: 
-    output: false
-  software: 
-    output: false
-  fiction:
-    output: false
-
-# Google Analytics
-google_analytics_tracking_id: UA-2451740-1
-
-
-# # Serving
-# detach:  false
-# port:    4000
-# host:    127.0.0.1
-# baseurl: "" # does not include hostname
-#
-# # Outputting
-# permalink:     date
-# paginate_path: /page:num
-# timezone:      null
-#
-# quiet:    false
-# defaults: []
-#
-# # Markdown Processors
-pandoc:
-  extensions: [smart, normalize, mathjax, csl: _styles/apa.csl, bibliography: files/library.bib]
-
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
-
-kramdown:
-  input: GFM
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
-
-
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: page
+      read_time: false
 

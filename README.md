@@ -1,11 +1,14 @@
-##potterzot.com source code
+## econpotter.com
 
-Web site and attached blog built in Jekyll, hosted on github with a domain CNAME to point potterzot.com to potterzot.github.io. Based on Lincoln Mullen's [site](httpss://github.com/lmullen/lincolnmullen.com).
+Web site built with Jekyll, hosted on github. The jekyll theme is `Prologue`, with some modifications.
 
-Also includes my note-taking system, written in markdown to enable easy notes but math equations, and a python script to fetch paper metadata and create a skeleton markdown file when given an article DOI. More info <a href="https://www.potterzot.com/notes/">here</a>.
+## Usage
 
+1. Fork this repository
+2. Change the repository name to be <username>.github.io.
+3. Change values in `_config.yml` to reflect your name and various contact info, files, etc...
+4. ???
+5. Profit!
 
-##To Use
-
-First, fork this repository and then rename it to your web site name. You'll have to change the domain name in `CNAME`, the options in `_config.yml`, and remove the various content pages. You'll also have to have [jekyll](https://jekyllrb.com/) installed and various associated gems.
+To run locally for development, you'll have to install `bundler` and run `bundle install`. Then a local server can be started with `bundle exec jekyll serve`.
 

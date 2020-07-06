@@ -1,62 +1,12 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <strong>Statistics/Research</strong>
-        <ul class="footer-list">
-          <li><a href="https://github.com/potterzot/research_plan">research plan</a></li>
-          <li><a href="https://github.com/potterzot/templates">research templates</a></li>
-          <li><a href="https://github.com/potterzot/bibliography">bibtex bibliography</a></li>
-        </ul>
-
-        <strong>Data Graphics</strong>
-        <ul class="footer-list">
-          <li><a href="https://agclimatetools.cahnrs.wsu.edu/cbcct/">Agriculture and Climate Change Decision Tool</a></li>
-          <li><a href="projects/pesticide-use-map">Pesticide Use Map</a></li>
-        </ul>
-
-        <strong>Software</strong>
-        <ul class="footer-list">
-          <li><a href="https://github.com/potterzot/researchTools">researchTools</a></li>
-          <li><a href="https://github.com/potterzot/rnassqs">rnassqs</a></li>
-          <li><a href="https://github.com/potterzot/napstan">napstan</a></li>
-          <li><a href="https://github.com/potterzot/rkclass">rkclass</a></li>
-        </ul>
-      </div>
-      <div class="footer-col  footer-col-1">
-        <strong>Short Stories</strong>
-        <ul class="footer-list">
-          <li><a href="/stories/stone-people">Stone People</a></li>
-          <li><a href="/stories/mopping-the-present">Mopping the Present</a></li>
-          <li><a href="/stories/on-the-same-wavelength/">On the same Wavelength</a></li>
-          <li><a href="/stories/corralled-and-carving/">Corralled and Carving</a></li>
-          <li><a href="/stories/hurricanes/">Hurricanes</a></li>
-        </ul>
-
-        <strong>Poetry</strong>
-        <ul class="footer-list">
-          <li>Nothing yet</li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-1">
-        <strong>Resources</strong>
-        <ul class="footer-list">
-          <li><a href="https://incisive.nu/2014/codes-of-conduct/">Codes of Conduct</a></li>
-          <li><a href="https://kbroman.org/dataorg/">Organizing Data</a></li>
-          <li><a href="https://quantecon.org/">Quantecon</a></li>
-          <li><a href="https://cs.brown.edu/~ambell/pyseminar/Python_for_Economists.pdf">Python for Economists (pdf)</a></li>
-          <li><a href="https://www.mayin.org/ajayshah/KB/R/R_for_economists.html">R for Economists</a></li>
-          <li><a href="https://r-pkgs.had.co.nz/">R Package Development</a></li>
-          <li><a href="https://adv-r.had.co.nz/">Advanced R</a></li>
-          <li><a href="https://www.massey.ac.nz/~jcmarsha/rstudio/debugging.html">R Debugging Guide</a></li>
-          <li><a href="https://www.amycesal.com/data-visualization-style-guidelines">Example style guide</a></li>
-        </ul>
-        
-      </div>
-    </div>
-
-  </div>
-  <p style="font-size:10px;color:#675757;">&copy Nicholas Potter, 2016 | <a href='https://keybase.io/potterzot'>click for id verification</a>.</p>
-</footer>
+<!-- Footer -->
+<div id="footer">
+  
+  <!-- Copyright -->
+  <ul class="copyright">
+    {% if site.title or site.author %}
+      <li>&copy; {{- site.title | default: site.author -}}. All rights reserved.</li>
+    {% endif %}
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
+  </ul>  
+</div>
