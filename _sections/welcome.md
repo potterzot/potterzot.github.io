@@ -12,6 +12,6 @@ I am a __certified Software and Data Carpentries instructor__ and regularly teac
 You can reach me at:
 
 - [potter.nicholas@gmail.com](mailto://potter.nicholas@gmail.com)
-- Mastodon: [@econpotter](https://mstdn.appliedecon.social/@econpotter)
+- Mastodon: [@econpotter](https://mstdn.appliedecon.social/@econpotter){:rel="me"}
 - Twitter: [@econpotter](https://twitter.com/econpotter)
 - LinkedIn: [@econpotter](https://www.linkedin.com/in/econpotter/)
