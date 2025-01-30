@@ -1,102 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Jekyll
+theme: linkhub-jekyll-theme
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-lang: en-US
-title: Nicholas Potter
-subtitle: Water and Natural Resource Economist
-description: >- # this means to ignore newlines until "baseurl:"
-  water and natrual resource economist
-author: Nicholas Potter
-email: econpotter@gmail.com
-avatar: assets/images/avatar.jpg
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: https://potterzot.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#cv: /files/Potter-CV.pdf
+# Site Configuration
+name: Nicholas A Potter  # Name of your website
+tagline: Links  # Set your preferred page title
+description: Water and Natural Resource Economist  # Also used as a meta description
+favicon:
+  path: assets/images/favicon.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
+  type: png # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
+logo: assets/images/logo.png # Path / URL to the logo (e.g., 'assets/images/logo.png')
+url: https://potterzot.github.io # URL of your website
+locale: en_US # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
+ga4: # Google Analytics 4 measurement ID, for e.g. G-XXXXXXX (optional). Remove it if it’s not needed.
+#twitter:
+#  username: # Used for SEO
+image:
+  path: assets/images/example.jpg # Used for SEO (og:image, twitter:image)
+  type: jpeg # File format of image.
+  height: 100 # Pixels
+  width: 100
+  alt: logo
 
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url: 
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/econpotter/
-#cv_url: /files/Potter-CV.pdf
-#jmp_url: /files/Potter-JMP.pdf
-github_url: https://www.github.com/potterzot
-stackoverflow_url:
-pinterest_url:
-slack_url:
-dribbble_url:
-
-# Google Analytics Tracking ID goes here:
-google_analytics:
-
-# The following settings are NECESSARY for the Prologue theme to run:
-#theme: jekyll-theme-prologue
-collections: [sections]
-
-# Build settings
-markdown: kramdown
-
-#`theme: jekyll-theme-basically-basic
-plugins: # previsously gems
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-
-include:
-  - .htaccess
-  - _pages
-# Exclude from processing.
-exclude:
-  - .asset-cache
-  - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .scss-lint.yml
-  - CHANGELOG
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - node_modules
-  - Rakefile
-  - README
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
-
-# Front Matter Defaults
+# Verified Badge Configuration
+badge:
+  enable: true # Set to 'true' or 'false' to enable / disable the badge
+  icon: ri:verified-badge-fill  # Enter the icon name for the badge from Iconify Design (https://icon-sets.iconify.design/)
+  color: '#dfb221'  # Define the color of the badge
+ 
+# Defaults
 defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
+  -
+    scope:
+      path: ""
     values:
-      layout: post
-      read_time: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: page
-      read_time: false
+      layout: "default"    
 
+# Exclude
+exclude: [README.md, Gemfile.lock, .jekyll-cache/, .github/, CHANGELOG.md, Gemfile, LICENSE.txt, funding.yml, linkhub-jekyll-theme.gemspec]
